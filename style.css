@@ -147,7 +147,7 @@ p:empty::before {
 
 code {
   font-family: monospace;
-  color: #71ad22;
+  color: #689915;
   background-color: rgba(240, 245, 245, .15);
   padding: .5em;
   line-height: 2em
@@ -646,7 +646,7 @@ input[type=submit]:active {
   margin: 0 auto;
   padding: 0;
   background-color: #1c2323;
-  border-bottom: .1em solid #71ad22
+  border-bottom: .1em solid #689915
 }
 
 #content {
@@ -729,18 +729,18 @@ input[type=submit]:active {
 }
 
 .posteditlink {
-  color: #71ad22
+  color: #689915
 }
 
 .DP_singlepost .posteditlink,
 .attachment .posteditlink {
   margin-left: 1.2em;
-  color: #71ad22
+  color: #689915
 }
 
 .attachment .posteditlink {
   margin-left: 2em;
-  color: #71ad22
+  color: #689915
 }
 
 .posteditlink a {
@@ -775,7 +775,7 @@ header#header {
   margin: 0 auto;
   text-align: center;
   background-color: rgba(40, 45, 45, .925);
-  border-bottom: .1em solid #71ad22;
+  border-bottom: .1em solid #689915;
   z-index: 999 !important;
   top: 0;
   position: sticky !important;
@@ -850,10 +850,10 @@ nav {
 .main-nav ul li a {
   margin: 0;
   padding: .25em .5em;
-  color: #71ad22;
+  color: #689915;
   background-color: rgba(40, 45, 45, .925);
   border-radius: .2em;
-  border: .1em solid #71ad22;
+  border: .1em solid #689915;
   text-align: center;
   -webkit-transition-duration: 150ms;
   -moz-transition-duration: 150ms;
@@ -864,7 +864,7 @@ nav {
 
 .main-nav ul li a:hover {
   color: #f0f5f5 !important;
-  background-color: #71ad22 !important;
+  background-color: #689915 !important;
   text-decoration: none;
   -webkit-transition-duration: 150ms;
   -moz-transition-duration: 150ms;
@@ -918,7 +918,7 @@ nav {
 
 .main-nav .menu-item.current-menu-item ul.sub-menu li a {
   font-weight: 400;
-  color: #71ad22
+  color: #689915
 }
 
 .sitenavdropdown {
@@ -929,10 +929,10 @@ nav {
 .sitenavdropdown #navdropdownwork {
   margin: 0;
   padding: .15em .5em;
-  color: #71ad22;
+  color: #689915;
   background-color: rgba(40, 45, 45, .925);
   border-radius: .2em;
-  border: .1em solid #71ad22;
+  border: .1em solid #689915;
   font-weight: 400;
   text-align: center;
   -webkit-transition-duration: 150ms;
@@ -944,7 +944,7 @@ nav {
 
 .sitenavdropdown #navdropdownwork:hover {
   color: #f0f5f5 !important;
-  background-color: #71ad22 !important;
+  background-color: #689915 !important;
   text-decoration: none;
   -webkit-transition-duration: 150ms;
   -moz-transition-duration: 150ms;
@@ -1537,7 +1537,7 @@ footer {
 .DPcontactform-warning {
   display: inline-block;
   margin: .5em .5em .5em 0;
-  color: #71ad22;
+  color: #689915;
   font-size: .8em
 }
 
@@ -1546,7 +1546,7 @@ footer {
   max-width: 100%;
   margin: 0 .2em 1em .2em;
   padding: .5em;
-  color: #71ad22;
+  color: #689915;
   background-color: rgba(40, 45, 45, .925);
   border-radius: .2em;
   border: .2em solid rgba(240, 245, 245, .1)
@@ -1556,7 +1556,7 @@ footer {
   max-width: 100%;
   margin: 0 1em 1em 1em;
   padding: 1em;
-  color: #71ad22;
+  color: #689915;
   background-color: rgba(40, 45, 45, .925);
   border-radius: .2em;
   border: .2em solid rgba(240, 245, 245, .1);
