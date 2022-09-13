@@ -470,23 +470,106 @@ iframe,
 video {
     /* Make iframes & videos fit the parent container by default */
     height: 100%;
-    width: 100%
+    width: 100%;
 }
 
 /*======================*/
 /* derek-perry/dp.design/style.css
-    Version = August 28, 2022
+    Version = September 13, 2022
     License = GPL v3.0 License
     GitHub Link = https://github.com/derek-perry/dp.design */
 /*======================*/
 
 html {
+    scroll-padding-top: 50px;
     /* Dark Mode Color Scheme - White Text on Dark Grey Background */
     color: #fff;
     background-color: #1c2323;
+    border: none;
+}
+
+body {
+    /* Body has max-width of 1500px */
+    max-width: 1500px;
+    margin: 0 auto;
+    border: none;
+
 }
 
 a {
-    /* Dark Mode Color Scheme - Green Accent Link Color */
+    /* Dark Mode Color Scheme - Green accent color used for links */
     color: #689915;
+}
+
+a:focus {
+    /* Dark Mode Color Scheme - Green accent color SLIGHTLY DARKENED for use on focused links */
+    color: rgba(104, 153, 21, 0.8);
+}
+
+a:hover,
+a:focus:hover {
+    /* Dark Mode Color Scheme - Green accent color DARKENED for use on hovered links */
+    color: rgba(104, 153, 21, 0.7);
+}
+
+a:active,
+a:hover:active {
+    /* Dark Mode Color Scheme - Green accent color SUPER DARKENED for use on active links */
+    color: rgba(104, 153, 21, 0.6);
+}
+
+#header {
+    /* Header - Center header content */
+    margin: 12px auto;
+    text-align: center;
+}
+
+#header #headerlogo,
+#header #headertitle,
+#header #headerdescription {
+    /* Header - List header items as horizontal row with item margins */
+    display: inline-block;
+    margin: 0 12px 12px 0;
+    vertical-align: middle;
+}
+
+#header h2 a {
+    /* Header - List header description items as horizontal row without item margins */
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#header h1,
+#header h2,
+#header a {
+    /* Header - Adjust text styles */
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+@media only all and (max-width:530px) {
+
+    /* Header - On mobile, push the header description "Game, Graphic, & Web" text to a new line */
+    #descroles {
+        display: block;
+    }
+}
+
+#links {
+    /* Footer - Social/Contact Link Area Styles - Provide propper padding between page content and the footer content */
+    margin:24px 0 0 0;
+}
+
+#links p {
+    /* Footer - Social/Contact Link Area Styles - List links as horizontal row with item margins */
+    display: inline-block;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    vertical-align: middle;
+}
+
+.works {
+    /* Portfolio/Works Listing - Provide propper padding between work listing areas */
+    margin: 0 0 24px 0;
 }
