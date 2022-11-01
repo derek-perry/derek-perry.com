@@ -485,11 +485,13 @@ video {
 a {
     /* Dark Mode Color Scheme - Green accent color used for links */
     color: #689915;
+    text-decoration: none;
 }
 
 a:focus {
     /* Dark Mode Color Scheme - Green accent color SLIGHTLY DARKENED for use on focused links */
     color: rgba(104, 153, 21, 0.8);
+    text-decoration: underline;
 }
 
 a:hover,
@@ -504,31 +506,48 @@ a:hover:active {
     color: rgba(104, 153, 21, 0.6);
 }
 
+hr {
+    margin: 48px 0 48px 0;
+    border: 0;
+    height: 1px;
+    background-color: #303436;
+}
+
 /* == Generic, reusable styles == */
 
 .button {
     /* A generic, green button */
-    padding: 10px 20px;
+    padding: 12px 24px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
     background-color: #689915;
     color: white;
-    text-align: center;
+    border: 1px solid #689915;
 }
 
 .button:focus {
     /* A generic, green button - Focus State */
+    color: white;
     background-color: rgba(104, 153, 21, 0.8);
+    border: 1px solid white;
+    text-decoration: underline;
 }
 
 .button:hover,
 .button:focus:hover {
     /* A generic, green button - Hover State */
+    color: white;
     background-color: rgba(104, 153, 21, 0.7);
+    border: 1px solid rgba(104, 153, 21, 0.7);
 }
 
 .button:active,
 .button:hover:active {
     /* A generic, green button - Active State */
+    color: white;
     background-color: rgba(104, 153, 21, 0.6);
+    border: 1px solid white;
 }
 
 .aligncenter {
@@ -550,6 +569,7 @@ html {
     color: #fff;
     background-color: #1c2323;
     border: none;
+    padding: 0 12px;
 }
 
 body {
@@ -562,57 +582,128 @@ body {
 
 #header {
     /* Header - Center header content */
-    margin: 12px auto;
+    margin: 12px 0 48px 0;
+    min-height: 64px;
+    border-bottom: 1px solid #689915;
+}
+
+.headernav {
+    max-width: 1500px;
     text-align: center;
+    margin: 0 auto;
 }
 
-#header #headerlogo,
-#header #headertitle,
-#header #headerdescription {
-    /* Header - List header items as horizontal row with item margins */
-    display: inline-block;
+#header #headerlogo {
+    /* Header - Display header logo on left side of header on desktop */
+    float: left;
+}
+
+#header #headerlogo img {
+    /* Header - Display header logo on left side of header on desktop */
     margin: 0 12px 12px 0;
+    display: inline-block;
     vertical-align: middle;
 }
 
-#header h2 a {
-    /* Header - List header description items as horizontal row without item margins */
+#header #headerlogo h1 {
+    /* Header - Display header logo on left side of header on desktop */
+    margin: 0 12px 12px 0;
     display: inline-block;
     vertical-align: middle;
+}
+
+#header #headerdescription {
+    /* Header - Display header description on right side of header on desktop */
+    margin: 12px 12px 12px 0;
+    float: right;
+    color: #3a3f40;
 }
 
 #header h1,
 #header h2,
 #header a {
-    /* Header - Adjust text styles */
+    /* Header - Simplify text styles */
     padding: 0;
     margin: 0;
     text-decoration: none;
 }
 
-@media only all and (max-width:530px) {
+@media only all and (max-width:800px) {
 
     /* Header - On mobile, push the header description "Game, Graphic, & Web" text to a new line */
-    #descroles {
+    #header {
+        /* Header - Center header content */
+        margin: 12px auto 48px auto;
+        min-height: 128px;
+        border-bottom: 1px solid #689915;
+    }
+
+    #header #headerlogo {
+        /* Header - Display header logo in center of header above headerdescription on mobile */
+        float: none;
         display: block;
+        margin: 12px auto;
+        text-align: center;
+    }
+
+    #header #headerdescription {
+        /* Header - Display header description in center of header below headerlogo on mobile */
+        float: none;
+        display: block;
+        margin: 12px auto;
+        text-align: center;
     }
 }
 
 #footer {
     /* Footer - Social/Contact Link Area Styles - Provide propper padding between page content and the footer content - Also center footer content */
-    margin: 24px auto 0 auto;
+    margin: 48px auto 0 auto;
+    padding: 48px 0 24px 0;
     text-align: center;
+    border-top: 1px solid #689915;
 }
 
 #footerlinks p {
     /* Footer - Social/Contact Link Area Styles - List links as horizontal row with item margins */
     display: inline-block;
-    margin-right: 12px;
-    margin-bottom: 12px;
+    margin: 0 24px 24px 0;
     vertical-align: middle;
 }
 
+#portfolio {
+    /* Portfolio/Works Listing - Center Text and other content in the portfolio */
+    margin: 24px auto;
+    text-align: center;
+}
+
 .works {
-    /* Portfolio/Works Listing - Provide propper padding between work listing areas */
+    /*           Portfolio/Works Listing - Provide propper padding between work listing areas */
+    margin: 24px auto;
+    text-align: center;
+}
+
+#work #summary {
     margin: 0 0 24px 0;
+}
+
+#work #software {
+    margin: 0 0 48px 0;
+}
+
+#work #summary ul {
+    /* Single Work Page - Styles for "Skills Used" ul parent item */
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0 0 12px 0;
+}
+
+#work #summary li {
+    /* Single Work Page - Styles for "Skills Used" li children items */
+    display: inline-block;
+    margin: 12px 12px 0 0;
+    padding: 12px 24px;
+    color: white;
+    background-color: #292D2E;
+    border: 1px solid rgba(48, 52, 54, 1);
 }
