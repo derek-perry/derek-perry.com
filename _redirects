@@ -1,0 +1,118 @@
+# Redirects from what the browser requests to what should be served
+# Homepage
+/home /
+/work /
+/works /
+/portfolio /
+/resume /
+# Minimal Match 3
+/minimalmatch3 /m3
+/minimal-match-3 /m3
+/match3 /m3
+/match-3 /m3
+/3 /m3
+/n3 /m3
+/m3/privacy /m3privacy
+/m3/privacypolicy /m3privacy
+/m3/privacy-policy /m3privacy
+/minimalmatch3/privacy /m3privacy
+/minimalmatch3/privacypolicy /m3privacy
+/minimalmatch3/privacy-policy /m3privacy
+/minimal-match-3/privacy /m3privacy
+/minimal-match-3/privacypolicy /m3privacy
+/minimal-match-3/privacy-policy /m3privacy
+/match3/privacy /m3privacy
+/match3/privacypolicy /m3privacy
+/match3/privacy-policy /m3privacy
+/match-3/privacy /m3privacy
+/match-3/privacypolicy /m3privacy
+/match-3/privacy-policy /m3privacy
+/minimal-match-3-privacy /m3privacy
+/match-3-privacy /m3privacy
+/m3-privacy /m3privacy
+/minimal-match-3-privacypolicy /m3privacy
+/match-3-privacypolicy /m3privacy
+/m3-privacypolicy /m3privacy
+/minimal-match-3-privacy-policy /m3privacy
+/match-3-privacy-policy /m3privacy
+/m3-privacy-policy /m3privacy
+# Rogue Assassin Thief
+/rogueassassinthief /rat
+/rogue-assassin-thief /rat
+/rogue /rat
+/assassin /rat
+/thief /rat
+# Roach Run
+/rr /roachrun
+/roach /roachrun
+/roachs /roachrun
+/roaches /roachrun
+/roachrun /roachrun
+/roach-run /roachrun
+# Ideas on Stuff
+/idea /ios
+/ideas /ios
+/stuff /ios
+/ideasonstuff /ios
+/ideas-on-stuff /ios
+/ideasstuff /ios
+/ideastuff /ios
+/ideas-stuff /ios
+/idea-stuff /ios
+# Piano Music Database
+/piano /pmd
+/music /pmd
+/musicdatabase /pmd
+/music-database /pmd
+/pianomusic /pmd
+/piano-music /pmd
+/pianomusicdatabase /pmd
+/piano-music-database /pmd
+/pianomusicdb /pmd
+/piano-music-db /pmd
+# The Hammer
+/the-hammer /thehammer
+/hammer /thehammer
+# Yakima Mobile Ultrasound
+/yakimamobileultrasound /ymu
+/yakima-mobile-ultrasound /ymu
+# Jackson Stevens Resumes
+/js /jsr
+/jacksonstevens /jsr
+/jacksonstevensresumes /jsr
+/jacksonstevens-resumes /jsr
+/jackson-stevens-resumes /jsr
+/jacksonstevensglobal /jsr
+/jacksonstevens-global /jsr
+/jackson-stevens-global /jsr
+# JDM of Washington
+/jdmofwa /jdm
+/jdmwashington /jdm
+/jdm-washington /jdm
+/washingtonjdm /jdm
+/washington-jdm /jdm
+/jdmofwashington /jdm
+/jdm-of-washington /jdm
+# LNI Stamped Concrete
+/lnisc /lni
+/lniscp /lni
+/concrete /lni
+# Lo-fi Noire
+/lofi /lofinoire
+/noire /lofinoire
+/lofi-noire /lofinoirew
+/lo-finoire /lofinoire
+/lo-fi-noire /lofinoire
+# Privacy Policy
+/cookies /privacy
+/cookiepolicy /privacy
+/cookie-policy /privacy
+/privacypolicy /privacy
+/privacy-policy /privacy
+# Miscellaneous
+/sitemap /sitemap.xml
+/wp-content/themes/belleza/O_firebrat_hydroxyl.html /
+# Other
+/gift https://amazon.com/hz/wishlist/ls/1XB5KDE0K6IKZ
+/gifts https://amazon.com/hz/wishlist/ls/1XB5KDE0K6IKZ
+/wishlist https://amazon.com/hz/wishlist/ls/1XB5KDE0K6IKZ

@@ -507,6 +507,7 @@ a:hover:active {
 }
 
 hr {
+    /* A subtle, dark grey divider line */
     margin: 48px 0 48px 0;
     border: 0;
     height: 1px;
@@ -573,21 +574,21 @@ html {
 }
 
 body {
-    /* Body has max-width of 1500px */
+    /* Body has max-width of 1500px and is centered */
     max-width: 1500px;
     margin: 0 auto;
     border: none;
-
 }
 
 #header {
-    /* Header - Center header content */
+    /* Header - Add margin and set a min-height to the entire header */
     margin: 12px 0 48px 0;
     min-height: 64px;
     border-bottom: 1px solid #689915;
 }
 
 .headernav {
+    /* Header - Set the max width of the header area */
     max-width: 1500px;
     text-align: center;
     margin: 0 auto;
@@ -616,7 +617,7 @@ body {
     /* Header - Display header description on right side of header on desktop */
     margin: 12px 12px 12px 0;
     float: right;
-    color: #3a3f40;
+    color: #788082;
 }
 
 #header h1,
@@ -677,16 +678,18 @@ body {
 }
 
 .works {
-    /*           Portfolio/Works Listing - Provide propper padding between work listing areas */
+    /* Portfolio/Works Listing - Provide propper padding between work listing areas */
     margin: 24px auto;
     text-align: center;
 }
 
 #work #summary {
+    /* Single Work Page - Add padding below Summary area */
     margin: 0 0 24px 0;
 }
 
 #work #software {
+    /* Single Work Page - Add padding below Software area */
     margin: 0 0 48px 0;
 }
 
