@@ -626,7 +626,6 @@ body {
     /* Header - Simplify text styles */
     padding: 0;
     margin: 0;
-    text-decoration: none;
 }
 
 @media only all and (max-width:800px) {
