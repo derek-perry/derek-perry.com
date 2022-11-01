@@ -475,26 +475,12 @@ video {
 
 /*======================*/
 /* derek-perry/dp.design/style.css
-    Version = September 15, 2022
+    Version = November 1, 2022
     License = GPL v3.0 License
     GitHub Link = https://github.com/derek-perry/dp.design */
 /*======================*/
 
-html {
-    scroll-padding-top: 50px;
-    /* Dark Mode Color Scheme - White Text on Dark Grey Background */
-    color: #fff;
-    background-color: #1c2323;
-    border: none;
-}
-
-body {
-    /* Body has max-width of 1500px */
-    max-width: 1500px;
-    margin: 0 auto;
-    border: none;
-
-}
+/* == Default HTML restyling styles == */
 
 a {
     /* Dark Mode Color Scheme - Green accent color used for links */
@@ -516,6 +502,62 @@ a:active,
 a:hover:active {
     /* Dark Mode Color Scheme - Green accent color SUPER DARKENED for use on active links */
     color: rgba(104, 153, 21, 0.6);
+}
+
+/* == Generic, reusable styles == */
+
+.button {
+    /* A generic, green button */
+    padding: 10px 20px;
+    background-color: #689915;
+    color: white;
+    text-align: center;
+}
+
+.button:focus {
+    /* A generic, green button - Focus State */
+    background-color: rgba(104, 153, 21, 0.8);
+}
+
+.button:hover,
+.button:focus:hover {
+    /* A generic, green button - Hover State */
+    background-color: rgba(104, 153, 21, 0.7);
+}
+
+.button:active,
+.button:hover:active {
+    /* A generic, green button - Active State */
+    background-color: rgba(104, 153, 21, 0.6);
+}
+
+.aligncenter {
+    /* Align div to center with both margin auto and text-align center */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.marginvert {
+    /* Add vertical (top and bottom) margin and remove horizontal (left and right ) margin */
+    margin: 24px 0;
+}
+
+/* === Specific, non-reusable styles === */
+
+html {
+    scroll-padding-top: 50px;
+    /* Dark Mode Color Scheme - White Text on Dark Grey Background */
+    color: #fff;
+    background-color: #1c2323;
+    border: none;
+}
+
+body {
+    /* Body has max-width of 1500px */
+    max-width: 1500px;
+    margin: 0 auto;
+    border: none;
+
 }
 
 #header {
