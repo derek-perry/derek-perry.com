@@ -1,10 +1,21 @@
 # Redirects from what the browser requests to what should be served
 # Homepage
 /home /
+/work/* /
 /work /
 /works /
+/works/* /
 /portfolio /
 /resume /
+/contact /
+/game /#games
+/games /#games
+/web /#websites
+/webdesign /#websites
+/website /#websites
+/websites /#websites
+/graphic /#graphics
+/graphics /#graphics
 # Minimal Match 3
 /minimalmatch3 /m3
 /minimal-match-3 /m3
@@ -42,6 +53,8 @@
 /rogue /rat
 /assassin /rat
 /thief /rat
+/thumbnail_rat /rat
+/rat3_turnaround /rat
 # Roach Run
 /rr /roachrun
 /roach /roachrun
@@ -49,6 +62,7 @@
 /roaches /roachrun
 /roachrun /roachrun
 /roach-run /roachrun
+/roachrun8_food /roachrun
 # Ideas on Stuff
 /idea /ios
 /ideas /ios
@@ -59,6 +73,8 @@
 /ideastuff /ios
 /ideas-stuff /ios
 /idea-stuff /ios
+/thumbnail_ios /ios
+/ios/* /ios
 # Piano Music Database
 /piano /pmd
 /music /pmd
@@ -70,12 +86,24 @@
 /piano-music-database /pmd
 /pianomusicdb /pmd
 /piano-music-db /pmd
+# Space Scavengers
+/spacescavengers /ss
+/space-scavengers /ss
+/ss3_video-movement /ss
+/ss4_video-stations /ss
+/ss6_collecting /ss
+/ss12_bp-thrust /ss
+/ss16_gif-stations /ss
+/ss/* /ss
 # The Hammer
 /the-hammer /thehammer
 /hammer /thehammer
+/thehammer1_final /thehammer
+/thehammer/* /thehammer
 # Yakima Mobile Ultrasound
 /yakimamobileultrasound /ymu
 /yakima-mobile-ultrasound /ymu
+/ymu/* /ymu
 # Jackson Stevens Resumes
 /js /jsr
 /jacksonstevens /jsr
@@ -93,25 +121,85 @@
 /washington-jdm /jdm
 /jdmofwashington /jdm
 /jdm-of-washington /jdm
+/jdm/* /jdm
 # LNI Stamped Concrete
 /lnisc /lni
 /lniscp /lni
 /concrete /lni
+/lni0_video /lni
+/lni/* /lni
+# Materials
+/material /mp
+/materials /mp
+/materials/* /mp
+/materialsorganic /mp
+/materials-organic /mp
+/materialsprocedural /mp
+/materials-procedural /mp
+/materials8_seamless-metal /mp
+/materials5_seamless-fabric /mp
+/materials2_video-organic /mp
+/materials/* /mp
+/materialsmanufactured /mm
+/materials-manufactured /mm
+/materials14_manufactured-clean /mm
 # Lo-fi Noire
 /lofi /lofinoire
 /noire /lofinoire
 /lofi-noire /lofinoirew
 /lo-finoire /lofinoire
 /lo-fi-noire /lofinoire
+/lofinoire1_video-levels /lofinoire
+/lofinoire4_video-clues1 /lofinoire
+/lofinoire10_intro1 /lofinoire
 # Privacy Policy
 /cookies /privacy
 /cookiepolicy /privacy
 /cookie-policy /privacy
 /privacypolicy /privacy
 /privacy-policy /privacy
-# Miscellaneous
+# Sitemap
 /sitemap /sitemap.xml
+/sitemap/* /sitemap.xml
+# Fixed/Removed from Google Indexing - (Does not exist at all)
+/code2 /
+/p.pdf /
+/2.pdf /
+/derekperry2 /
+/dpthumbnail_test /
+/dpthumbnail_work /
+/dpthumbnail_dpdesign /
+/testfonts /
+/kzoinqf/* /
+/iyocll3k/* /
+/hocnaaie2/* /
 /wp-content/themes/belleza/O_firebrat_hydroxyl.html /
+# Fixed/Removed from Google Indexing - (Does not exist anymore)
+/?* /
+/2019/* /
+/2020/* /
+/blog /
+/scad/* /
+/tag/* /
+/category/* /
+/wp-includes/* /
+/wp-admin /
+/wp-admin/* /
+/search /
+/search/* /
+/comments/* /
+/icon_* /
+/moonbase /
+/brutalist /
+/brutalistoutpost2d_backlit /
+/bcr /
+/beachside-colony-resort /
+/village /
+/villageducoin1_screenshot /
+/stairs /
+/stairsinthewoods1f_proportion /
+/stairsinthewoods6_gif-controls /
+/stairsinthewoods8_gif-stairs1 /
 # Other
 /gift https://amazon.com/hz/wishlist/ls/1XB5KDE0K6IKZ
 /gifts https://amazon.com/hz/wishlist/ls/1XB5KDE0K6IKZ
