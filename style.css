@@ -506,6 +506,31 @@ a:hover:active {
     color: rgba(104, 153, 21, 0.6);
 }
 
+img {
+    /* Fix/remove unnessecary image borders when the image has is link */
+    color: rgba(28, 35, 35, 0);
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+a img:hover {
+    /* Change image opacity when hovering over the image-link */
+    opacity: 0.8;
+}
+
+a img:focus {
+    /* Change image opacity when focusing the image-link */
+    opacity: 0.7;
+}
+
+a img:active {
+    /* Change image opacity when activating/clicking the image-link */
+    opacity: 0.6;
+}
+
 hr {
     /* A subtle, dark grey divider line */
     margin: 48px 0 48px 0;
