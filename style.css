@@ -475,7 +475,7 @@ video {
 
 /*======================*/
 /* derek-perry/dp.design/style.css
-    Version = November 1, 2022
+    Version = November 5, 2022
     License = GPL v3.0 License
     GitHub Link = https://github.com/derek-perry/dp.design */
 /*======================*/
@@ -690,14 +690,20 @@ body {
     vertical-align: middle;
 }
 
+#policy {
+    /* Policy Pages - Provide propper padding between page areas and limit content width */
+    margin: 24px auto;
+    max-width: 1260px;
+}
+
 #portfolio {
-    /* Portfolio/Works Listing - Center Text and other content in the portfolio */
+    /* Portfolio/Works Listing - Center text and other content in the portfolio */
     margin: 24px auto;
     text-align: center;
 }
 
 #portfolio hr {
-    /* Portfolio/Works Listing - Center Text and other content in the portfolio */
+    /* Portfolio/Works Listing -  Provide propper padding and limit hr width */
     margin: 48px auto;
     text-align: center;
     max-width: 2025px;
@@ -711,6 +717,7 @@ body {
 }
 
 #work {
+    /* Single Work Page - Limit content width */
     max-width: 1260px;
     margin: 0 auto;
 }
