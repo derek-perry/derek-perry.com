@@ -596,27 +596,21 @@ html {
     background-color: #1c2323;
     border: none;
     padding: 0 12px;
+    line-height: 1.25;
 }
 
 body {
-    /* Body has max-width of 1500px and is centered */
-    max-width: 1500px;
+    /* Body is centered */
     margin: 0 auto;
     border: none;
 }
 
 #header {
-    /* Header - Add margin and set a min-height to the entire header */
-    margin: 12px 0 48px 0;
+    /* Header - Add margin and set a max-width and min-height to the entire header */
+    margin: 12px auto 48px auto;
     min-height: 64px;
     border-bottom: 1px solid #689915;
-}
-
-.headernav {
-    /* Header - Set the max width of the header area */
-    max-width: 1500px;
-    text-align: center;
-    margin: 0 auto;
+    max-width: 1260px;
 }
 
 #header #headerlogo {
@@ -686,6 +680,7 @@ body {
     padding: 48px 0 24px 0;
     text-align: center;
     border-top: 1px solid #689915;
+    max-width: 1260px;
 }
 
 #footerlinks p {
@@ -701,10 +696,23 @@ body {
     text-align: center;
 }
 
+#portfolio hr {
+    /* Portfolio/Works Listing - Center Text and other content in the portfolio */
+    margin: 48px auto;
+    text-align: center;
+    max-width: 2025px;
+}
+
 .works {
     /* Portfolio/Works Listing - Provide propper padding between work listing areas */
     margin: 24px auto;
     text-align: center;
+    max-width: 2025px;
+}
+
+#work {
+    max-width: 1260px;
+    margin: 0 auto;
 }
 
 #work #summary {
