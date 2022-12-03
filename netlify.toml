@@ -760,7 +760,7 @@
   to = "/privacy"
 
 [[redirects]]
-  from = "/agreement"s
+  from = "/agreements"
   to = "/privacy"
 
 [[redirects]]
