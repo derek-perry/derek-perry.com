@@ -1,7 +1,10 @@
 {
   "short_name": "Derek Perry",
   "name": "Derek Perry - Interactive Design - dp.design",
-  "description":"dp.design - Portfolio/Website of Derek Perry, an Interactive Designer with a passion for the intersection of art and technology including Game Design, Graphic Design, and Web Design.",
+  "description": "dp.design - Portfolio/Website of Derek Perry, an Interactive Designer with a passion for the intersection of art and technology including Game Design, Graphic Design, and Web Design.",
+  "categories": ["design", "games", "game development", "game design"],
+  "author": "Derek Perry",
+  "lang": "en",
   "icons": [
     {
       "src": "/media/pwa/icon-svg.svg",
@@ -9,94 +12,141 @@
       "sizes": "3000x3000"
     },
     {
-      "src": "/favicon/icon-16x16.png",
+      "src": "/media/pwa/icon-16x16.png",
       "type": "image/png",
       "sizes": "16x16"
     },
     {
-      "src": "/favicon/icon-32x32.png",
+      "src": "/media/pwa/icon-32x32.png",
       "type": "image/png",
       "sizes": "32x32"
     },
     {
-      "src": "/favicon/icon-57x57.png",
+      "src": "/media/pwa/icon-57x57.png",
       "type": "image/png",
       "sizes": "57x57"
     },
     {
-      "src": "/favicon/icon-60x60.png",
+      "src": "/media/pwa/icon-60x60.png",
       "type": "image/png",
       "sizes": "60x60"
     },
     {
-      "src": "/favicon/icon-72x72.png",
+      "src": "/media/pwa/icon-72x72.png",
       "type": "image/png",
       "sizes": "72x72"
     },
     {
-      "src": "/favicon/icon-76x76.png",
+      "src": "/media/pwa/icon-76x76.png",
       "type": "image/png",
       "sizes": "76x76"
     },
     {
-      "src": "/favicon/icon-96x96.png",
+      "src": "/media/pwa/icon-96x96.png",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "/favicon/icon-114x114.png",
+      "src": "/media/pwa/icon-114x114.png",
       "type": "image/png",
       "sizes": "114x114"
     },
     {
-      "src": "/favicon/icon-120x120.png",
+      "src": "/media/pwa/icon-120x120.png",
       "type": "image/png",
       "sizes": "120x120"
     },
     {
-      "src": "/favicon/icon-144x144.png",
+      "src": "/media/pwa/icon-128x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/media/pwa/icon-144x144.png",
       "type": "image/png",
       "sizes": "144x144"
     },
     {
-      "src": "/favicon/icon-150x150.png",
+      "src": "/media/pwa/icon-150x150.png",
       "type": "image/png",
       "sizes": "150x150"
     },
     {
-      "src": "/favicon/icon-152x152.png",
+      "src": "/media/pwa/icon-152x152.png",
       "type": "image/png",
       "sizes": "152x152"
     },
     {
-      "src": "/favicon/icon-180x180.png",
+      "src": "/media/pwa/icon-180x180.png",
       "type": "image/png",
       "sizes": "180x180"
     },
     {
-      "src": "/favicon/icon-192x192.png",
+      "src": "/media/pwa/icon-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/favicon/icon-256x256.png",
+      "src": "/media/pwa/icon-256x256.png",
       "type": "image/png",
       "sizes": "256x256"
     },
     {
-      "src": "/favicon/icon-270x270.png",
+      "src": "/media/pwa/icon-270x270.png",
       "type": "image/png",
       "sizes": "270x270"
     },
     {
-      "src": "/favicon/icon-384x384.png",
+      "src": "/media/pwa/icon-384x384.png",
       "type": "image/png",
       "sizes": "384x384"
     },
     {
-      "src": "/favicon/icon-512x512.png",
+      "src": "/media/pwa/icon-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
+    },
+    {
+      "src": "/media/pwa/maskable_icon-48x48.png",
+      "type": "image/png",
+      "sizes": "48x48",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/media/pwa/maskable_icon-72x72.png",
+      "type": "image/png",
+      "sizes": "72x72",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/media/pwa/maskable_icon-96x96.png",
+      "type": "image/png",
+      "sizes": "96x96",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/media/pwa/maskable_icon-128x128.png",
+      "type": "image/png",
+      "sizes": "128x128",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/media/pwa/maskable_icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/media/pwa/maskable_icon-384x384.png",
+      "type": "image/png",
+      "sizes": "384x384",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/media/pwa/maskable_icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
     }
   ],
   "scope": "/",
