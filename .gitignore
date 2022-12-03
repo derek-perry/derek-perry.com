@@ -1,4 +1,8 @@
 ### Git Ignore for dp.design ###
 
-# Explcitly ignore Mac DS_Store files, regardless of where they are
+# Ignore .zip files
+*.zip
+
+# Ignore Mac DS_Store files
+.ds_store
 .DS_Store
