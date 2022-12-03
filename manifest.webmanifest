@@ -161,19 +161,8 @@
       "name": "Works/Portfolio of Derek Perry",
       "short_name": "Portfolio",
       "description": "View the Games, Graphic Designs, and Websites by Derek Perry",
-      "url": "/?source=pwa"
-    },
-    {
-      "name": "Minimal Match 3 - Tile Matching Game",
-      "short_name": "Match 3",
-      "description": "Standard Match 3 – but with minimal distractions. Play match 3 the way it was intended.",
-      "url": "/m3?source=pwa",
+      "url": "/?source=pwashortcut",
       "icons": [
-        {
-          "src": "/media/pwa/icon-svg.svg",
-          "type": "image/svg+xml",
-          "sizes": "any"
-        },
         {
           "src": "/media/pwa/icon-16x16.png",
           "type": "image/png",
@@ -268,48 +257,109 @@
           "src": "/media/pwa/icon-512x512.png",
           "type": "image/png",
           "sizes": "512x512"
+        }
+      ]
+    },
+    {
+      "name": "Minimal Match 3 - Tile Matching Game",
+      "short_name": "Match 3",
+      "description": "Standard Match 3 – but with minimal distractions. Play match 3 the way it was intended.",
+      "url": "/m3?source=pwashortcut",
+      "icons": [
+        {
+          "src": "/media/pwa/icon-16x16.png",
+          "type": "image/png",
+          "sizes": "16x16"
         },
         {
-          "src": "/media/pwa/maskable_icon-48x48.png",
+          "src": "/media/pwa/icon-32x32.png",
           "type": "image/png",
-          "sizes": "48x48",
-          "purpose": "maskable"
+          "sizes": "32x32"
         },
         {
-          "src": "/media/pwa/maskable_icon-72x72.png",
+          "src": "/media/pwa/icon-57x57.png",
           "type": "image/png",
-          "sizes": "72x72",
-          "purpose": "maskable"
+          "sizes": "57x57"
         },
         {
-          "src": "/media/pwa/maskable_icon-96x96.png",
+          "src": "/media/pwa/icon-60x60.png",
           "type": "image/png",
-          "sizes": "96x96",
-          "purpose": "maskable"
+          "sizes": "60x60"
         },
         {
-          "src": "/media/pwa/maskable_icon-128x128.png",
+          "src": "/media/pwa/icon-72x72.png",
           "type": "image/png",
-          "sizes": "128x128",
-          "purpose": "maskable"
+          "sizes": "72x72"
         },
         {
-          "src": "/media/pwa/maskable_icon-192x192.png",
+          "src": "/media/pwa/icon-76x76.png",
           "type": "image/png",
-          "sizes": "192x192",
-          "purpose": "maskable"
+          "sizes": "76x76"
         },
         {
-          "src": "/media/pwa/maskable_icon-384x384.png",
+          "src": "/media/pwa/icon-96x96.png",
           "type": "image/png",
-          "sizes": "384x384",
-          "purpose": "maskable"
+          "sizes": "96x96"
         },
         {
-          "src": "/media/pwa/maskable_icon-512x512.png",
+          "src": "/media/pwa/icon-114x114.png",
           "type": "image/png",
-          "sizes": "512x512",
-          "purpose": "maskable"
+          "sizes": "114x114"
+        },
+        {
+          "src": "/media/pwa/icon-120x120.png",
+          "type": "image/png",
+          "sizes": "120x120"
+        },
+        {
+          "src": "/media/pwa/icon-128x128.png",
+          "type": "image/png",
+          "sizes": "128x128"
+        },
+        {
+          "src": "/media/pwa/icon-144x144.png",
+          "type": "image/png",
+          "sizes": "144x144"
+        },
+        {
+          "src": "/media/pwa/icon-150x150.png",
+          "type": "image/png",
+          "sizes": "150x150"
+        },
+        {
+          "src": "/media/pwa/icon-152x152.png",
+          "type": "image/png",
+          "sizes": "152x152"
+        },
+        {
+          "src": "/media/pwa/icon-180x180.png",
+          "type": "image/png",
+          "sizes": "180x180"
+        },
+        {
+          "src": "/media/pwa/icon-192x192.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        },
+        {
+          "src": "/media/pwa/icon-256x256.png",
+          "type": "image/png",
+          "sizes": "256x256"
+        },
+        {
+          "src": "/media/pwa/icon-270x270.png",
+          "type": "image/png",
+          "sizes": "270x270"
+        },
+        {
+          "src": "/media/pwa/icon-384x384.png",
+          "type": "image/png",
+          "sizes": "384x384"
+        },
+        {
+          "src": "/media/pwa/icon-512x512.png",
+          "type": "image/png",
+          "sizes": "512x512"
         }
       ]
     },
@@ -317,13 +367,8 @@
       "name": "Roach Run - Arcade Game",
       "short_name": "Roach Run",
       "description": "Roach Run is a first-person collect-a-thon arcade game made in Unreal Engine. You're a small roach in a house with a messy owner, roach friends, and food inside.",
-      "url": "/roachrun?source=pwa",
+      "url": "/roachrun?source=pwashortcut",
       "icons": [
-        {
-          "src": "/media/pwa/icon-svg.svg",
-          "type": "image/svg+xml",
-          "sizes": "any"
-        },
         {
           "src": "/media/pwa/icon-16x16.png",
           "type": "image/png",
@@ -418,48 +463,6 @@
           "src": "/media/pwa/icon-512x512.png",
           "type": "image/png",
           "sizes": "512x512"
-        },
-        {
-          "src": "/media/pwa/maskable_icon-48x48.png",
-          "type": "image/png",
-          "sizes": "48x48",
-          "purpose": "maskable"
-        },
-        {
-          "src": "/media/pwa/maskable_icon-72x72.png",
-          "type": "image/png",
-          "sizes": "72x72",
-          "purpose": "maskable"
-        },
-        {
-          "src": "/media/pwa/maskable_icon-96x96.png",
-          "type": "image/png",
-          "sizes": "96x96",
-          "purpose": "maskable"
-        },
-        {
-          "src": "/media/pwa/maskable_icon-128x128.png",
-          "type": "image/png",
-          "sizes": "128x128",
-          "purpose": "maskable"
-        },
-        {
-          "src": "/media/pwa/maskable_icon-192x192.png",
-          "type": "image/png",
-          "sizes": "192x192",
-          "purpose": "maskable"
-        },
-        {
-          "src": "/media/pwa/maskable_icon-384x384.png",
-          "type": "image/png",
-          "sizes": "384x384",
-          "purpose": "maskable"
-        },
-        {
-          "src": "/media/pwa/maskable_icon-512x512.png",
-          "type": "image/png",
-          "sizes": "512x512",
-          "purpose": "maskable"
         }
       ]
     },
@@ -467,13 +470,8 @@
       "name": "Yakima Mobile Ultrasound - Website and Logo Design",
       "short_name": "Yakima Mobile Ultrasound",
       "description": "Brand design and WordPress booking website for a mobile ultrasound business.",
-      "url": "/ymu?source=pwa",
+      "url": "/ymu?source=pwashortcut",
       "icons": [
-        {
-          "src": "/media/pwa/icon-svg.svg",
-          "type": "image/svg+xml",
-          "sizes": "any"
-        },
         {
           "src": "/media/pwa/icon-16x16.png",
           "type": "image/png",
@@ -568,48 +566,6 @@
           "src": "/media/pwa/icon-512x512.png",
           "type": "image/png",
           "sizes": "512x512"
-        },
-        {
-          "src": "/media/pwa/maskable_icon-48x48.png",
-          "type": "image/png",
-          "sizes": "48x48",
-          "purpose": "maskable"
-        },
-        {
-          "src": "/media/pwa/maskable_icon-72x72.png",
-          "type": "image/png",
-          "sizes": "72x72",
-          "purpose": "maskable"
-        },
-        {
-          "src": "/media/pwa/maskable_icon-96x96.png",
-          "type": "image/png",
-          "sizes": "96x96",
-          "purpose": "maskable"
-        },
-        {
-          "src": "/media/pwa/maskable_icon-128x128.png",
-          "type": "image/png",
-          "sizes": "128x128",
-          "purpose": "maskable"
-        },
-        {
-          "src": "/media/pwa/maskable_icon-192x192.png",
-          "type": "image/png",
-          "sizes": "192x192",
-          "purpose": "maskable"
-        },
-        {
-          "src": "/media/pwa/maskable_icon-384x384.png",
-          "type": "image/png",
-          "sizes": "384x384",
-          "purpose": "maskable"
-        },
-        {
-          "src": "/media/pwa/maskable_icon-512x512.png",
-          "type": "image/png",
-          "sizes": "512x512",
-          "purpose": "maskable"
         }
       ]
     }
