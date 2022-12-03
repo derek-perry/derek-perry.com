@@ -9,7 +9,7 @@
     {
       "src": "/media/pwa/icon-svg.svg",
       "type": "image/svg+xml",
-      "sizes": "3000x3000"
+      "sizes": "any"
     },
     {
       "src": "/media/pwa/icon-16x16.png",
