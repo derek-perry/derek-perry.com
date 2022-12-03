@@ -1132,27 +1132,6 @@
   status = 404
 
 [[redirects]]
-  from = "/?"
-  to = "/404"
-  status = 404
-
-[[redirects]]
-  from = "/?*"
-  to = "/404"
-  status = 404
-
-[[redirects]]
-  from = "/?/*"
-  to = "/404"
-  status = 404
-
-[[redirects]]
-  from = "/?mskfulcjz=*"
-  to = "/404"
-  status = 404
-
-
-[[redirects]]
   from = "/kzoinqf"
   to = "/404"
   status = 404
