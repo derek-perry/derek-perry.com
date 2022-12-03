@@ -1,0 +1,1186 @@
+#==================================================================
+# Netlify Configuration File
+# Version = December 2, 2022
+# License = GPL v3.0 License
+# GitHub Link = https://github.com/derek-perry/dp.design
+# GitHub Repo File Location = derek-perry/dp.design/netlify.toml
+#==================================================================
+
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+# REDIRECTS =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+# Redirects from what the browser requests to what should be served
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+#------------------------------------------------------------------
+# Redirects to:
+# Homepage
+#------------------------------------------------------------------
+[[redirects]]
+  from = "https://derekperry.netlify.app"
+  to = "https://dp.design"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/home"
+  to = "/"
+
+[[redirects]]
+  from = "/derekperry"
+  to = "/"
+
+[[redirects]]
+  from = "/dp"
+  to = "/"
+
+[[redirects]]
+  from = "/work"
+  to = "/"
+
+[[redirects]]
+  from = "/work/*"
+  to = "/"
+
+[[redirects]]
+  from = "/works"
+  to = "/"
+
+[[redirects]]
+  from = "/works/*"
+  to = "/"
+
+[[redirects]]
+  from = "/portfolio"
+  to = "/"
+
+[[redirects]]
+  from = "/game"
+  to = "/#games"
+
+[[redirects]]
+  from = "/games"
+  to = "/#games"
+
+[[redirects]]
+  from = "/web"
+  to = "/#websites"
+
+[[redirects]]
+  from = "/webdesign"
+  to = "/#websites"
+
+[[redirects]]
+  from = "/website"
+  to = "/#websites"
+
+[[redirects]]
+  from = "/websites"
+  to = "/#websites"
+
+[[redirects]]
+  from = "/graphic"
+  to = "/#graphics"
+
+[[redirects]]
+  from = "/graphicdesign"
+  to = "/#graphics"
+
+[[redirects]]
+  from = "/graphics"
+  to = "/#graphics"
+
+
+#------------------------------------------------------------------
+# Redirects to:
+# Ideas on Stuff
+#------------------------------------------------------------------
+
+[[redirects]]
+  from = "/ios/*"
+  to = "/ios"
+
+[[redirects]]
+  from = "/idea"
+  to = "/ios"
+
+[[redirects]]
+  from = "/ideas"
+  to = "/ios"
+
+[[redirects]]
+  from = "/stuff"
+  to = "/ios"
+
+[[redirects]]
+  from = "/ideasonstuff"
+  to = "/ios"
+
+[[redirects]]
+  from = "/ideas-on-stuff"
+  to = "/ios"
+
+[[redirects]]
+  from = "/ideasstuff"
+  to = "/ios"
+
+[[redirects]]
+  from = "/ideas-stuff"
+  to = "/ios"
+
+[[redirects]]
+  from = "/ideastuff"
+  to = "/ios"
+
+[[redirects]]
+  from = "/idea-stuff"
+  to = "/ios"
+
+
+#------------------------------------------------------------------
+# Redirects to:
+# Jackson Stevens Resumes
+#------------------------------------------------------------------
+
+[[redirects]]
+  from = "/jsr/*"
+  to = "/jsr"
+
+[[redirects]]
+  from = "/js"
+  to = "/jsr"
+
+[[redirects]]
+  from = "/jacksonstevens"
+  to = "/jsr"
+
+[[redirects]]
+  from = "/jackson-stevens"
+  to = "/jsr"
+
+[[redirects]]
+  from = "/jacksonstevens-resumes"
+  to = "/jsr"
+
+[[redirects]]
+  from = "/jackson-stevens-resumes"
+  to = "/jsr"
+
+[[redirects]]
+  from = "/jacksonstevensglobal"
+  to = "/jsr"
+
+[[redirects]]
+  from = "/jacksonstevens-global"
+  to = "/jsr"
+
+[[redirects]]
+  from = "/jackson-stevens-global"
+  to = "/jsr"
+
+
+#------------------------------------------------------------------
+# Redirects to:
+# JDM of Washington
+#------------------------------------------------------------------
+
+[[redirects]]
+  from = "/jdm/*"
+  to = "/jdm"
+
+[[redirects]]
+  from = "/jdmofwa"
+  to = "/jdm"
+
+[[redirects]]
+  from = "/jdm-of-wa"
+  to = "/jdm"
+
+[[redirects]]
+  from = "/jdmwashington"
+  to = "/jdm"
+
+[[redirects]]
+  from = "/jdm-washington"
+  to = "/jdm"
+
+[[redirects]]
+  from = "/washingtonjdm"
+  to = "/jdm"
+
+[[redirects]]
+  from = "/washington-jdm"
+  to = "/jdm"
+
+[[redirects]]
+  from = "/jdmofwashington"
+  to = "/jdm"
+
+[[redirects]]
+  from = "/jdm-of-washington"
+  to = "/jdm"
+
+
+#------------------------------------------------------------------
+# Redirects to:
+# LNI Stamped Concrete
+#------------------------------------------------------------------
+
+[[redirects]]
+  from = "/lni/*"
+  to = "/lni"
+
+[[redirects]]
+  from = "/lnisc"
+  to = "/lni"
+
+[[redirects]]
+  from = "/lniscp"
+  to = "/lni"
+
+[[redirects]]
+  from = "/concrete"
+  to = "/lni"
+
+[[redirects]]
+  from = "/lni0_video"
+  to = "/lni"
+
+
+#------------------------------------------------------------------
+# Redirects to:
+# Lo-fi Noire
+#------------------------------------------------------------------
+
+[[redirects]]
+  from = "/lofinoire/*"
+  to = "/lofinoire"
+
+[[redirects]]
+  from = "/lofi"
+  to = "/lofinoire"
+
+[[redirects]]
+  from = "/noire"
+  to = "/lofinoire"
+
+[[redirects]]
+  from = "/lofi-noire"
+  to = "/lofinoire"
+
+[[redirects]]
+  from = "/lo-finoire"
+  to = "/lofinoire"
+
+[[redirects]]
+  from = "/lo-fi-noire"
+  to = "/lofinoire"
+
+[[redirects]]
+  from = "/lofinoire1_video-levels"
+  to = "/lofinoire"
+
+[[redirects]]
+  from = "/lofinoire4_video-clues1"
+  to = "/lofinoire"
+
+[[redirects]]
+  from = "/lofinoire10_intro1"
+  to = "/lofinoire"
+
+
+#------------------------------------------------------------------
+# Redirects to:
+# Materials
+#------------------------------------------------------------------
+
+[[redirects]]
+  from = "/materials/*"
+  to = "/mp"
+
+[[redirects]]
+  from = "/materials"
+  to = "/mp"
+
+[[redirects]]
+  from = "/material"
+  to = "/mp"
+
+[[redirects]]
+  from = "/materialsorganic"
+  to = "/mp"
+
+[[redirects]]
+  from = "/materials-organic"
+  to = "/mp"
+
+[[redirects]]
+  from = "/materialorganic"
+  to = "/mp"
+
+[[redirects]]
+  from = "/material-organic"
+  to = "/mp"
+
+[[redirects]]
+  from = "/mp/*"
+  to = "/mp"
+
+[[redirects]]
+  from = "/materialsprocedural"
+  to = "/mp"
+
+[[redirects]]
+  from = "/materials-procedural"
+  to = "/mp"
+
+[[redirects]]
+  from = "/materialprocedural"
+  to = "/mp"
+
+[[redirects]]
+  from = "/material-procedural"
+  to = "/mp"
+
+[[redirects]]
+  from = "/materials8_seamless-metal"
+  to = "/mp"
+
+[[redirects]]
+  from = "/materials5_seamless-fabric"
+  to = "/mp"
+
+[[redirects]]
+  from = "/materials2_video-organic"
+  to = "/mp"
+
+[[redirects]]
+  from = "/mm/*"
+  to = "/mm"
+
+[[redirects]]
+  from = "/materialsmanufactured"
+  to = "/mm"
+
+[[redirects]]
+  from = "/materials-manufactured"
+  to = "/mm"
+
+[[redirects]]
+  from = "/materialmanufactured"
+  to = "/mm"
+
+[[redirects]]
+  from = "/material-manufactured"
+  to = "/mm"
+
+[[redirects]]
+  from = "/materials14_manufactured-clean"
+  to = "/mm"
+
+
+#------------------------------------------------------------------
+# Redirects to:
+# Minimal Match 3
+#------------------------------------------------------------------
+
+[[redirects]]
+  from = "/minimalmatch3"
+  to = "/m3"
+
+[[redirects]]
+  from = "/minimal-match-3"
+  to = "/m3"
+
+[[redirects]]
+  from = "/match3"
+  to = "/m3"
+
+[[redirects]]
+  from = "/match-3"
+  to = "/m3"
+
+[[redirects]]
+  from = "/3"
+  to = "/m3"
+
+[[redirects]]
+  from = "/n3"
+  to = "/m3"
+
+[[redirects]]
+  from = "/m3/privacy"
+  to = "/m3privacy"
+
+[[redirects]]
+  from = "/m3/privacypolicy"
+  to = "/m3privacy"
+
+[[redirects]]
+  from = "/m3/privacy-policy"
+  to = "/m3privacy"
+
+[[redirects]]
+  from = "/minimalmatch3/privac"
+  to = "/m3privacy"
+
+[[redirects]]
+  from = "/minimalmatch3/privacypolicy"
+  to = "/m3privacy"
+
+[[redirects]]
+  from = "/minimalmatch3/privacy-policy"
+  to = "/m3privacy"
+
+[[redirects]]
+  from = "/minimal-match-3/privacy"
+  to = "/m3privacy"
+
+[[redirects]]
+  from = "/minimal-match-3/privacypolicy"
+  to = "/m3privacy"
+
+[[redirects]]
+  from = "/minimal-match-3/privacy-policy"
+  to = "/m3privacy"
+
+[[redirects]]
+  from = "/match3/privacy"
+  to = "/m3privacy"
+
+[[redirects]]
+  from = "/match3/privacypolicy"
+  to = "/m3privacy"
+
+[[redirects]]
+  from = "/match3/privacy-policy"
+  to = "/m3privacy"
+
+[[redirects]]
+  from = "/match-3/privacy"
+  to = "/m3privacy"
+
+[[redirects]]
+  from = "/match-3/privacypolicy"
+  to = "/m3privacy"
+
+[[redirects]]
+  from = "/match-3/privacy-policy"
+  to = "/m3privacy"
+
+[[redirects]]
+  from = "/minimal-match-3-privacy"
+  to = "/m3privacy"
+
+[[redirects]]
+  from = "/match-3-privacy"
+  to = "/m3privacy"
+
+[[redirects]]
+  from = "/m3-privacy"
+  to = "/m3privacy"
+
+[[redirects]]
+  from = "/minimal-match-3-privacypolicy"
+  to = "/m3privacy"
+
+[[redirects]]
+  from = "/match-3-privacypolicy"
+  to = "/m3privacy"
+
+[[redirects]]
+  from = "/m3-privacypolicy"
+  to = "/m3privacy"
+
+[[redirects]]
+  from = "/minimal-match-3-privacy-policymatch-3-privacy-policy"
+  to = "/m3privacy"
+
+[[redirects]]
+  from = "/match-3-privacy-policy"
+  to = "/m3privacy"
+
+[[redirects]]
+  from = "/m3-privacy-policy"
+  to = "/m3privacy"
+
+
+#------------------------------------------------------------------
+# Redirects to:
+# Piano Music Database (PMD)
+#------------------------------------------------------------------
+
+[[redirects]]
+  from = "/pmd/*"
+  to = "/pmd"
+
+[[redirects]]
+  from = "/piano"
+  to = "/pmd"
+
+[[redirects]]
+  from = "/music"
+  to = "/pmd"
+
+[[redirects]]
+  from = "/musicdatabase"
+  to = "/pmd"
+
+[[redirects]]
+  from = "/music-database"
+  to = "/pmd"
+
+[[redirects]]
+  from = "/pianomusic"
+  to = "/pmd"
+
+[[redirects]]
+  from = "/piano-music"
+  to = "/pmd"
+
+[[redirects]]
+  from = "/pianomusicdatabase"
+  to = "/pmd"
+
+[[redirects]]
+  from = "/piano-music-database"
+  to = "/pmd"
+
+[[redirects]]
+  from = "/pianomusicdb"
+  to = "/pmd"
+
+[[redirects]]
+  from = "/piano-music-db"
+  to = "/pmd"
+
+
+#------------------------------------------------------------------
+# Redirects to:
+# Roach Run
+#------------------------------------------------------------------
+
+[[redirects]]
+  from = "/roachrun/*"
+  to = "/roachrun"
+
+[[redirects]]
+  from = "/rr/*"
+  to = "/roachrun"
+
+[[redirects]]
+  from = "/rr"
+  to = "/roachrun"
+
+[[redirects]]
+  from = "/roach"
+  to = "/roachrun"
+
+[[redirects]]
+  from = "/roachs"
+  to = "/roachrun"
+
+[[redirects]]
+  from = "/roaches"
+  to = "/roachrun"
+
+[[redirects]]
+  from = "/roachrun"
+  to = "/roachrun"
+
+[[redirects]]
+  from = "/roach-run"
+  to = "/roachrun"
+
+[[redirects]]
+  from = "/roachrun8_food"
+  to = "/roachrun"
+
+
+#------------------------------------------------------------------
+# Redirects to:
+# Rogue Assassin Thief (RAT)
+#------------------------------------------------------------------
+
+[[redirects]]
+  from = "/rat/*"
+  to = "/rat"
+
+[[redirects]]
+  from = "/rats"
+  to = "/rat"
+
+[[redirects]]
+  from = "/rogueassassinthief"
+  to = "/rat"
+
+[[redirects]]
+  from = "/rogue-assassin-thief"
+  to = "/rat"
+
+[[redirects]]
+  from = "/rogue"
+  to = "/rat"
+
+[[redirects]]
+  from = "/assassin"
+  to = "/rat"
+
+[[redirects]]
+  from = "/thief"
+  to = "/rat"
+
+[[redirects]]
+  from = "/rat3_turnaround"
+  to = "/rat"
+
+
+#------------------------------------------------------------------
+# Redirects to:
+# Space Scavengers
+#------------------------------------------------------------------
+
+[[redirects]]
+  from = "/ss/*"
+  to = "/ss"
+
+[[redirects]]
+  from = "/spacescavengers"
+  to = "/ss"
+
+[[redirects]]
+  from = "/space-scavengers"
+  to = "/ss"
+
+[[redirects]]
+  from = "/ss3_video-movement"
+  to = "/ss"
+
+[[redirects]]
+  from = "/ss4_video-stations"
+  to = "/ss"
+
+[[redirects]]
+  from = "/ss6_collecting"
+  to = "/ss"
+
+[[redirects]]
+  from = "/ss12_bp-thrust"
+  to = "/ss"
+
+[[redirects]]
+  from = "/ss16_gif-stations"
+  to = "/ss"
+
+
+#------------------------------------------------------------------
+# Redirects to:
+# The Hammer
+#------------------------------------------------------------------
+
+[[redirects]]
+  from = "/thehammer/*"
+  to = "/thehammer"
+
+[[redirects]]
+  from = "/the-hammer"
+  to = "/thehammer"
+
+[[redirects]]
+  from = "/hammer"
+  to = "/thehammer"
+
+[[redirects]]
+  from = "/hammers"
+  to = "/thehammer"
+
+[[redirects]]
+  from = "/thehammers"
+  to = "/thehammer"
+
+[[redirects]]
+  from = "/thehammer1_final"
+  to = "/thehammer"
+
+
+#------------------------------------------------------------------
+# Redirects to:
+# Yakima Mobile Ultrasound
+#------------------------------------------------------------------
+
+[[redirects]]
+  from = "/ymu/*"
+  to = "/ymu"
+
+[[redirects]]
+  from = "/yakimamobileultrasound"
+  to = "/ymu"
+
+[[redirects]]
+  from = "/yakima-mobile-ultrasound"
+  to = "/ymu"
+
+[[redirects]]
+  from = "/yakimamobile"
+  to = "/ymu"
+
+[[redirects]]
+  from = "/yakimamobileus"
+  to = "/ymu"
+
+[[redirects]]
+  from = "/mobileultrasound"
+  to = "/ymu"
+
+[[redirects]]
+  from = "/ultrasound"
+  to = "/ymu"
+
+[[redirects]]
+  from = "/yakima"
+  to = "/ymu"
+
+
+#------------------------------------------------------------------
+# Redirects to:
+# Privacy Policy
+#------------------------------------------------------------------
+
+[[redirects]]
+  from = "/privacy/*"
+  to = "/privacy"
+
+[[redirects]]
+  from = "/legal"
+  to = "/privacy"
+
+[[redirects]]
+  from = "/agreement"
+  to = "/privacy"
+
+[[redirects]]
+  from = "/agreement"s
+  to = "/privacy"
+
+[[redirects]]
+  from = "/policy"
+  to = "/privacy"
+
+[[redirects]]
+  from = "/cookies"
+  to = "/privacy"
+
+[[redirects]]
+  from = "/cookiepolicy"
+  to = "/privacy"
+
+[[redirects]]
+  from = "/cookie-policy"
+  to = "/privacy"
+
+[[redirects]]
+  from = "/privacypolicy"
+  to = "/privacy"
+
+[[redirects]]
+  from = "/privacy-policy"
+  to = "/privacy"
+
+
+#------------------------------------------------------------------
+# Redirects to:
+# Sitemap
+#------------------------------------------------------------------
+
+[[redirects]]
+  from = "/directory"
+  to = "/sitemap.xml"
+
+[[redirects]]
+  from = "/pages"
+  to = "/sitemap.xml"
+
+[[redirects]]
+  from = "/pagelist"
+  to = "/sitemap.xml"
+
+[[redirects]]
+  from = "/sitemap"
+  to = "/sitemap.xml"
+
+[[redirects]]
+  from = "/sitemap/*"
+  to = "/sitemap.xml"
+
+
+#------------------------------------------------------------------
+# Redirects to:
+# Other/Miscellaneous
+#------------------------------------------------------------------
+
+[[redirects]]
+  from = "/gift"
+  to = "https://amazon.com/hz/wishlist/ls/1XB5KDE0K6IKZ"
+
+[[redirects]]
+  from = "/gifts"
+  to = "https://amazon.com/hz/wishlist/ls/1XB5KDE0K6IKZ"
+
+[[redirects]]
+  from = "/wishlist"
+  to = "https://amazon.com/hz/wishlist/ls/1XB5KDE0K6IKZ"
+
+[[redirects]]
+  from = "/giftlist"
+  to = "https://amazon.com/hz/wishlist/ls/1XB5KDE0K6IKZ"
+
+
+#------------------------------------------------------------------
+# Redirects to:
+# 404 (Does not exist anymore)
+#------------------------------------------------------------------
+
+[[redirects]]
+  from = "/resume"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/contact"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/dpthumbnail_*"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/thumbnail_*"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/icon_*"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/p.pdf"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/2.pdf"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/2017"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/2017/*"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/2018"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/2018/*"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/2019"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/2019/*"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/2020"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/2020/*"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/2021"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/2021/*"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/2022"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/2022/*"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/2023"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/2023/*"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/blog"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/scad"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/scad/*"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/tag"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/tag/*"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/category"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/category/*"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/wp-includes"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/wp-includes/*"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/wp-content"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/wp-content/*"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/wp-admin"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/wp-admin/*"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/search"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/search/*"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/comment"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/comment/*"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/comments"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/comments/*"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/code2"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/moonbase"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/brutalist"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/brutalistoutpost2d_backlit"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/bcr"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/beachside-colony-resort"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/village"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/villageducoin"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/villageducoin1_screenshot"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/stairs"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/stairsinthewoods"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/stairsinthewoods1f_proportion"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/stairsinthewoods6_gif-controls"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/stairsinthewoods8_gif-stairs1"
+  to = "/404"
+  status = 404
+
+
+#------------------------------------------------------------------
+# Redirects to:
+# 404 (Does not exist at all)
+#------------------------------------------------------------------
+[[redirects]]
+  from = "/derekperry2"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/test"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/testfonts"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/?"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/?*"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/?/*"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/?mskfulcjz=*"
+  to = "/404"
+  status = 404
+
+
+[[redirects]]
+  from = "/kzoinqf"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/kzoinqf/*"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/iyocll3k"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/iyocll3k/*"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/hocnaaie2/*"
+  to = "/404"
+  status = 404
+
+
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+# END OF -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+# REDIRECTS =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
