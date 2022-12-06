@@ -18,7 +18,7 @@ _[Website; HTML; CSS]_
 ### License Information
 **[dp.design](https://dp.design "Visit Derek Perry's portfolio/website dp.design") is licensed under the GNU General Public License v3.0**
 _(View the accompanying LICENSE file for more information on the "GNU General Public License v3.0" license.)_
-If you use [dp.design’s code](https://github.com/derek-perry/dp.design "Visit the GitHub for Derek Perry's portfolio/website at github.com/derek-perry/dp.design"), please retain the licenses of the files below which were used in the development of [dp.design](https://dp.design "Visit Derek Perry's portfolio/website dp.design3").
+If you use [dp.design’s code](https://github.com/derek-perry/dp.design "Visit the GitHub for Derek Perry's portfolio/website at github.com/derek-perry/dp.design"), please retain the licenses of the files below which were used in the development of [dp.design](https://dp.design "Visit Derek Perry's portfolio/website dp.design").
 
 **CSS Resets Used:**
 - [modern-normalize.css](https://github.com/sindresorhus/modern-normalize "View the modern-normalize.css Repo by sindresorhus on GitHub") by [sindresorhus](https://github.com/sindresorhus) (Copyright 2018-2022 sindresorhus) (MIT License)
