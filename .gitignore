@@ -2,7 +2,23 @@
 
 # Ignore .zip files
 *.zip
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
 
-# Ignore Mac DS_Store files
+# Ignore Random OS files
+*.lock
+*.out
+*.swp
 .ds_store
 .DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
