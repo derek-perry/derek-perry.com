@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/derekperry
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dp.design
+  * I am derekperry (https://keybase.io/derekperry) on keybase.
+  * I have a public key ASC8mIKW42QLMegSWq4N7Jxvz73hXJfCHHngjypRYJr-4go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120bc988296e3640b31e8125aae0dec9c6fcfbde15c97c21c79e08f2a51609afee20a",
+      "host": "keybase.io",
+      "kid": "0120bc988296e3640b31e8125aae0dec9c6fcfbde15c97c21c79e08f2a51609afee20a",
+      "uid": "14c6ec718217bbba504cd52fa60e6d19",
+      "username": "derekperry"
+    },
+    "merkle_root": {
+      "ctime": 1671290354,
+      "hash": "a8e82bd304d9b086e0655875f4afffc96c273ba4d393477bff237ff6681813768e6cc667a14956a351f401b6f27f1fe25eb28070ef7117c66105b3ea41cfad5f",
+      "hash_meta": "f5aed48027ea5a4a19915aa0d178479dc63c0e57d6d9236ebc00421080580bad",
+      "seqno": 23730107
+    },
+    "service": {
+      "entropy": "CLoiWBHQBXvQ9tG24hAdpnd5",
+      "hostname": "dp.design",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.1"
+  },
+  "ctime": 1671290412,
+  "expire_in": 504576000,
+  "prev": "9e1c22498cf905cd394ecc0a0d69415e29ffc825e929bd3a8a63a4e22f9d6275",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgvJiCluNkCzHoElquDeycb8+94VyXwhx54I8qUWCa/uIKp3BheWxvYWTESpcCBcQgnhwiSYz5Bc05TswKDWlBXin/yCXpKb06imOk4i+dYnXEINemEIh6OSLb0WWGIwJfhf5L2hO1tpPrHympbr0TdHXrAgHCo3NpZ8RAr8t3FprGf6M3C1Y2N9m3ig1rd44JY17yGnjxaTvLLuLCJL+lr+zUGsR/zvpqErp5uhQ6ij6yGxEKSxzR2JspAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPqDZDqT5f8UPmVWbse1wfUdre4iXf2om7ci5d8ncrfvo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/derekperry
+
+==================================================================
