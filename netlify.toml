@@ -1,6 +1,6 @@
 #==================================================================
 # Netlify Configuration File
-# Version = December 3, 2022
+# Version = August 11, 2023
 # License = GPL v3.0 License
 # GitHub Link = https://github.com/derek-perry/dp.design
 # GitHub Repo File Location = derek-perry/dp.design/netlify.toml
@@ -832,6 +832,14 @@
 # Redirects to:
 # Other/Miscellaneous
 #------------------------------------------------------------------
+
+[[redirects]]
+  from = "/pc"
+  to = "https://pcpartpicker.com/user/derekperry/saved/fBXWt6"
+
+[[redirects]]
+  from = "/computer"
+  to = "https://pcpartpicker.com/user/derekperry/saved/fBXWt6"
 
 [[redirects]]
   from = "/gift"
