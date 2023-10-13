@@ -4,8 +4,6 @@ _[Website; HTML; CSS]_
 
 **Made Using:** HTML, CSS, Adobe Photoshop, Adobe Illustrator
 
-![Netlify](https://img.shields.io/netlify/67336d6c-a7d3-4c66-a9c5-089e075fd714?label=Netlify%20Deploy%20Status&logo=netlify&style=plastic)
-
 ---
 
 ### Links
