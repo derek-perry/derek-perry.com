@@ -1,5 +1,5 @@
-# dp.design
-### Code for Derek Perry's Portfolio/Website, dp.design.
+# derek-perry.com
+### Code for Derek Perry's Portfolio/Website, derek-perry.com.
 _[Website; HTML; CSS]_
 
 **Made Using:** HTML, CSS, Adobe Photoshop, Adobe Illustrator
@@ -9,16 +9,16 @@ _[Website; HTML; CSS]_
 ---
 
 ### Links
-- **Website:** [dp.design](https://dp.design "Visit Derek Perry's portfolio/website dp.design")
-- **Privacy Policy:** [dp.design/privacy](https://dp.design/privacy "Visit the privacy policy of Derek Perry's portfolio/website at dp.design/privacy")
-- **GitHub:** [github.com/derek-perry/dp.design](https://github.com/derek-perry/dp.design "Visit the GitHub for Derek Perry's portfolio/website at github.com/derek-perry/dp.design")
+- **Website:** [derek-perry.com](https://derek-perry.com "Visit Derek Perry's portfolio/website derek-perry.com")
+- **Privacy Policy:** [derek-perry.com/privacy](https://derek-perry.com/privacy "Visit the privacy policy of Derek Perry's portfolio/website at derek-perry.com/privacy")
+- **GitHub:** [github.com/derek-perry/derek-perry.com](https://github.com/derek-perry/derek-perry.com "Visit the GitHub for Derek Perry's portfolio/website at github.com/derek-perry/derek-perry.com")
 
 ---
 
 ### License Information
-**[dp.design](https://dp.design "Visit Derek Perry's portfolio/website dp.design") is licensed under the GNU General Public License v3.0**
+**[derek-perry.com](https://derek-perry.com "Visit Derek Perry's portfolio/website derek-perry.com") is licensed under the GNU General Public License v3.0**
 _(View the accompanying LICENSE file for more information on the "GNU General Public License v3.0" license.)_
-If you use [dp.design’s code](https://github.com/derek-perry/dp.design "Visit the GitHub for Derek Perry's portfolio/website at github.com/derek-perry/dp.design"), please retain the licenses of the files below which were used in the development of [dp.design](https://dp.design "Visit Derek Perry's portfolio/website dp.design").
+If you use [derek-perry.com’s code](https://github.com/derek-perry/derek-perry.com "Visit the GitHub for Derek Perry's portfolio/website at github.com/derek-perry/derek-perry.com"), please retain the licenses of the files below which were used in the development of [derek-perry.com](https://derek-perry.com "Visit Derek Perry's portfolio/website derek-perry.com").
 
 **CSS Resets Used:**
 - [modern-normalize.css](https://github.com/sindresorhus/modern-normalize "View the modern-normalize.css Repo by sindresorhus on GitHub") by [sindresorhus](https://github.com/sindresorhus) (Copyright 2018-2022 sindresorhus) (MIT License)

@@ -4,7 +4,7 @@ https://keybase.io/derekperry
 
 I hereby claim:
 
-  * I am an admin of https://dp.design
+  * I am an admin of https://derek-perry.com
   * I am derekperry (https://keybase.io/derekperry) on keybase.
   * I have a public key ASC8mIKW42QLMegSWq4N7Jxvz73hXJfCHHngjypRYJr-4go
 
@@ -27,7 +27,7 @@ To do so, I am signing this object:
     },
     "service": {
       "entropy": "CLoiWBHQBXvQ9tG24hAdpnd5",
-      "hostname": "dp.design",
+      "hostname": "derek-perry.com",
       "protocol": "https:"
     },
     "type": "web_service_binding",
