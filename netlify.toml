@@ -1,6 +1,6 @@
 #==================================================================
 # Netlify Configuration File
-# Version = August 11, 2023
+# Version = October 12, 2023
 # License = GPL v3.0 License
 # GitHub Link = https://github.com/derek-perry/derek-perry.com
 # GitHub Repo File Location = derek-perry/derek-perry.com/netlify.toml
@@ -31,6 +31,12 @@
 # Redirects to:
 # Homepage
 #------------------------------------------------------------------
+[[redirects]]
+  from = "https://derek-perry.netlify.app"
+  to = "https://derek-perry.com"
+  status = 301
+  force = true
+
 [[redirects]]
   from = "https://derekperry.netlify.app"
   to = "https://derek-perry.com"
