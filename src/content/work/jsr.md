@@ -1,0 +1,121 @@
+---
+title: Jackson Stevens Resumes
+software_used: Adobe After Effects, Adobe Illustrator, Adobe Photoshop, HTML and CSS, Web Server
+description: Website with advanced design, 2D video production/motion graphics, and animated webpage backgrounds for a c-suite level resume preparation business.
+description_seo: Website with advanced design, 2D video production/motion graphics, and animated webpage backgrounds for a c-suite level resume preparation business.
+image: src/assets/images/media/thumbnail_jsr.png
+imageAlt: ""
+categories:
+  - website
+tags:
+  - Website Design
+  - Website Development
+---
+Website with advanced design, 2D video production/motion graphics, and animated webpage backgrounds for a c-suite level resume preparation business.
+
+<hr>
+
+<video controls autoplay muted loop preload="auto" poster="src/assets/images/media/js9_video.jpg" alt="Jackson Stevens Resumes – Marketing video with audio-matched motion graphics and video editing/production">
+    <source src="src/assets/images/media/js9_video.mp4" type="video/mp4" />
+</video>
+Marketing video with audio-matched motion graphics and video editing/production
+
+<hr>
+
+<h2>Webpage Screenshots</h2>
+
+<div class="bg-[#242929] flex flex-row gap-2">
+  <div>
+    <img src="src/assets/images/media/js0b_home.jpg" alt="Jackson Stevens Resumes – Mobile device screenshot of the homepage/main webpage">
+    Mobile device screenshot of the homepage/main webpage
+  </div>
+
+  <div>
+    <img src="src/assets/images/media/js0a_home.jpg" alt="Jackson Stevens Resumes – Desktop device screenshot of the homepage/main webpage">
+    Desktop device screenshot of the homepage/main webpage
+  </div>
+</div>
+
+<div class="bg-[#242929] flex flex-row gap-2">
+  <div>
+    <img src="src/assets/images/media/js1b_home2.jpg" alt="Jackson Stevens Resumes – Mobile device screenshot of the homepage/main webpage">
+    Mobile device screenshot of the homepage/main webpage
+  </div>
+
+  <div>
+    <img src="src/assets/images/media/js1a_home2.jpg" alt="Jackson Stevens Resumes – Desktop device screenshot of the homepage/main webpage">
+    Desktop device screenshot of the homepage/main webpage
+  </div>
+</div>
+
+<div class="bg-[#242929] flex flex-row gap-2">
+  <div>
+    <img src="src/assets/images/media/js2b_searchfirmservices.jpg" alt="Jackson Stevens Resumes – Mobile device screenshot of the search firm services webpage">
+    Mobile device screenshot of the search firm services webpage
+  </div>
+
+  <div>
+    <img src="src/assets/images/media/js2a_searchfirmservices.jpg" alt="Jackson Stevens Resumes – Desktop device screenshot of the search firm services webpage">
+    Desktop device screenshot of the search firm services webpage
+  </div>
+</div>
+
+<div class="bg-[#242929] flex flex-row gap-2">
+  <div>
+    <img src="src/assets/images/media/js3b_searchfirmservices2.jpg" alt="Jackson Stevens Resumes – Mobile device screenshot of the search firm services webpage">
+    Mobile device screenshot of the search firm services webpage
+  </div>
+
+  <div>
+    <img src="src/assets/images/media/js3a_searchfirmservices2.jpg" alt="Jackson Stevens Resumes – Desktop device screenshot of the search firm services webpage">
+    Desktop device screenshot of the search firm services webpage
+  </div>
+</div>
+
+<div class="bg-[#242929] flex flex-row gap-2">
+  <div>
+    <img src="src/assets/images/media/js4b_candidateservices.jpg" alt="Jackson Stevens Resumes – Mobile device screenshot of the candidate services webpage">
+    Mobile device screenshot of the candidate services webpage
+  </div>
+
+  <div>
+    <img src="src/assets/images/media/js4a_candidateservices.jpg" alt="Jackson Stevens Resumes – Desktop device screenshot of the candidate services webpage">
+    Desktop device screenshot of the candidate services webpage
+  </div>
+</div>
+
+<div class="bg-[#242929] flex flex-row gap-2">
+  <div>
+    <img src="src/assets/images/media/js6b_resumewriting.jpg" alt="Jackson Stevens Resumes – Mobile device screenshot of the executive resume writing webpage">
+    Mobile device screenshot of the executive resume writing webpage
+  </div>
+
+  <div>
+    <img src="src/assets/images/media/js6a_resumewriting.jpg" alt="Jackson Stevens Resumes – Desktop device screenshot of the executive resume writing webpage">
+    Desktop device screenshot of the executive resume writing webpage
+  </div>
+</div>
+
+<div class="bg-[#242929] flex flex-row gap-2">
+  <div>
+    <img src="src/assets/images/media/js5b_outplacement.jpg" alt="Jackson Stevens Resumes – Mobile device screenshot of the outplacement webpage">
+    Mobile device screenshot of the outplacement webpage
+  </div>
+
+  <div>
+    <img src="src/assets/images/media/js5a_outplacement.jpg" alt="Jackson Stevens Resumes – Desktop device screenshot of the outplacement webpage">
+    Desktop device screenshot of the outplacement webpage
+  </div>
+</div>
+
+<div class="bg-[#242929] flex flex-row gap-2">
+  <div>
+    <img src="src/assets/images/media/js7b_testimonials.jpg" alt="Jackson Stevens Resumes – Mobile device screenshot of the testimonials webpage">
+    Mobile device screenshot of the testimonials webpage
+  </div>
+
+  <div>
+    <img src="src/assets/images/media/js7a_testimonials.jpg" alt="Jackson Stevens Resumes – Desktop device screenshot of the testimonials webpage">
+    Desktop device screenshot of the testimonials webpage
+  </div>
+</div>

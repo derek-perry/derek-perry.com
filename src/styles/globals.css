@@ -1,0 +1,358 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans:
+    Saira Variable, ui-sans-serif, system-ui, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: rgb(229, 231, 235);
+    /* gray-200 */
+  }
+}
+
+@utility button {
+  background-color: #7f1d1d;
+  border-radius: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  color: white;
+  text-decoration: none;
+  text-decoration-line: none;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
+  font-family: "Saira Variable", sans-serif;
+  cursor: pointer;
+
+  &:hover {
+    color: white;
+    background-color: rgb(168, 162, 158);
+    /* stone-400 */
+    text-decoration: none;
+    text-decoration-line: none;
+  }
+
+  &:focus {
+    color: rgb(38, 38, 38);
+    /* stone-800 */
+    background-color: rgb(231, 229, 228);
+    /* stone-200 */
+    text-decoration: none;
+    text-decoration-line: none;
+  }
+}
+
+@utility text-balance {
+  text-wrap: balance;
+}
+
+@layer base {
+
+  /* For the base HTML and body tags: set padding/margin, font, etc */
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: "Saira Variable", system-ui, sans-serif;
+    letter-spacing: 0.2px;
+    scroll-behavior: smooth;
+    background-color: rgb(40, 45, 45);
+    color: white;
+  }
+
+  /* Change selection background */
+  ::selection {
+    background-color: rgb(2, 132, 199);
+    /* sky-600 */
+    color: white;
+    text-shadow: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-inline: 0;
+  }
+
+  h1 {
+    /* Font size = 4xl */
+    font-size: 2.25rem;
+    /* 2.25rem (36px) */
+    line-height: calc(2.5 / 2.25);
+    /* calc(2.5 / 2.25) */
+  }
+
+  h2 {
+    /* Font size = 3xl */
+    font-size: 1.875rem;
+    /* 1.875rem (30px) */
+    line-height: calc(2.25 / 1.875);
+    /* calc(2.25 / 1.875) */
+  }
+
+  h3 {
+    /* Font size = 2xl */
+    font-size: 1.5rem;
+    /* 1.5rem (24px) */
+    line-height: calc(2 / 1.5);
+    /* calc(2 / 1.5) */
+  }
+
+  h4 {
+    /* Font size = xl */
+    font-size: 1.25rem;
+    /* 1.25rem (20px) */
+    line-height: calc(1.75 / 1.25);
+    /* calc(1.75 / 1.25) */
+  }
+
+  h5 {
+    /* Font size = lg */
+    font-size: 1.125rem;
+    /* 1.125rem (18px) */
+    line-height: calc(1.75 / 1.125);
+    /* calc(1.75 / 1.125) */
+  }
+
+  h6 {
+    /* Font size = lg */
+    font-size: 1.125rem;
+    /* 1.125rem (18px) */
+    line-height: calc(1.75 / 1.125);
+    /* calc(1.75 / 1.125) */
+  }
+
+  /* Increase paragraph tag size default to tailwind-xl */
+  p {
+    font-size: 1.25rem;
+    /* 20px - xl */
+    line-height: 1.75rem;
+    /* 28px - 7 */
+  }
+
+  a {
+    /* Dark Mode Color Scheme - Green accent color used for links */
+    color: #689915;
+    text-decoration: none;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 100ms;
+  }
+
+  a:focus {
+    /* Dark Mode Color Scheme - Green accent color SLIGHTLY DARKENED for use on focused links */
+    color: rgba(104, 153, 21, 0.8);
+    text-decoration: underline;
+  }
+
+  a:hover,
+  a:focus:hover {
+    /* Dark Mode Color Scheme - Green accent color DARKENED for use on hovered links */
+    color: rgba(104, 153, 21, 0.7);
+  }
+
+  a:active,
+  a:hover:active {
+    /* Dark Mode Color Scheme - Green accent color SUPER DARKENED for use on active links */
+    color: rgba(104, 153, 21, 0.6);
+  }
+
+  img {
+    /* Fix/remove unnessecary image borders when the image has is link */
+    color: rgba(28, 35, 35, 0);
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+
+  a img:hover {
+    /* Change image opacity when hovering over the image-link */
+    opacity: 0.8;
+  }
+
+  a img:focus {
+    /* Change image opacity when focusing the image-link */
+    opacity: 0.7;
+  }
+
+  a img:active {
+    /* Change image opacity when activating/clicking the image-link */
+    opacity: 0.6;
+  }
+
+  hr {
+    /* A subtle, dark grey divider line */
+    margin: 48px 0 48px 0;
+    border: 0;
+    height: 1px;
+    background-color: #303436;
+  }
+
+  /* Images */
+  img {
+    font-size: 0.875rem;
+    /* 0.875rem (14px) */
+    line-height: calc(1.25 / 0.875);
+    /* calc(1.25 / 0.875) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    overflow: hidden;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    color: rgb(153, 161, 175);
+    /* gray-400 */
+    background-color: black;
+  }
+
+  /* Lists */
+  li {
+    margin: 0;
+    padding: 0;
+  }
+
+  ul {
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+
+  ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+    counter-reset: item;
+  }
+
+  ul ul,
+  ol ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    margin-left: 1rem;
+    /* 16px */
+  }
+
+  ol ol,
+  ul ol {
+    list-style-type: lower-latin;
+    list-style-position: inside;
+    margin-left: 1rem;
+    /* 16px */
+  }
+
+  li>p,
+  li>h1,
+  li>h2,
+  li>h3,
+  li>h4,
+  li>h5,
+  li>h6 {
+    display: inline-block;
+  }
+
+  ol>li {
+    counter-increment: item;
+  }
+
+  ol ol>li {
+    display: block;
+  }
+
+  ol ol>li:before {
+    content: counters(item, ".") " ";
+  }
+
+  /* Abbreviations */
+  abbr {
+    text-decoration: underline dotted;
+    cursor: help;
+  }
+
+  abbr:hover {
+    text-decoration: underline;
+  }
+
+  dfn>abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+}
+
+/* Responsive Breakpoint - SM */
+@media (width >=48rem) {
+  h1 {
+    /* Font size = 5xl */
+    font-size: 3rem;
+    /* 3rem (48px) */
+    line-height: 1;
+    /* 1 */
+  }
+
+  h2 {
+    /* Font size = 4xl */
+    font-size: 2.25rem;
+    /* 2.25rem (36px) */
+    line-height: calc(2.5 / 2.25);
+    /* calc(2.5 / 2.25) */
+  }
+
+  h3 {
+    /* Font size = 3xl */
+    font-size: 1.875rem;
+    /* 1.875rem (30px) */
+    line-height: calc(2.25 / 1.875);
+    /* calc(2.25 / 1.875) */
+  }
+
+  h4 {
+    /* Font size = 2xl */
+    font-size: 1.5rem;
+    /* 1.5rem (24px) */
+    line-height: calc(2 / 1.5);
+    /* calc(2 / 1.5) */
+  }
+
+  h5 {
+    /* Font size = xl */
+    font-size: 1.25rem;
+    /* 1.25rem (20px) */
+    line-height: calc(1.75 / 1.25);
+    /* calc(1.75 / 1.25) */
+  }
+}
+
+/* Skip Link */
+@media only screen and (min-width: 0em) {
+  .skip {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1111111;
+  }
+}
