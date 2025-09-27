@@ -19,6 +19,9 @@ const content = await marked.parse(
 );
 
 const details = await getCollection("details");
+
+const envDomain = import.meta.env.SITE_URL?.trim();
+const domain = envDomain ? envDomain : ("https://" + details[0].data.domain.toLowerCase());
 ---
 
 <BaseLayout
@@ -34,8 +37,8 @@ const details = await getCollection("details");
         : ""}
     image={work.data.image
         ? typeof work.data.image === "object"
-            ? `https://${details[0].data.domain.toLowerCase()}${work.data.image.src}`
-            : `https://${details[0].data.domain.toLowerCase()}${work.data.image}`
+            ? `${domain}${work.data.image.src}`
+            : `${domain}${work.data.image}`
         : undefined}
 >
     <article

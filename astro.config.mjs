@@ -4,7 +4,7 @@ import icon from "astro-icon";
 import tailwindcss from "@tailwindcss/vite";
 
 const envDomain = import.meta.env.SITE_URL?.trim();
-const domain = envDomain ? envDomain : "https://outputstarter.netlify.app";
+const domain = envDomain ? envDomain : "https://derek-perry.com";
 
 export default defineConfig({
   site: domain,
