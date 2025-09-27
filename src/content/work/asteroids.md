@@ -7,7 +7,7 @@ description: Simple 2D game coded from scratch in Processing. The simple goal
 description_seo: Simple 2D game coded from scratch in Processing. The simple
   goal for this was hand-coding a game in Processing with simple mechanics for
   practice with coding logic.
-image: /src/assets/images/thumbnail_asteroids.png
+image: /src/assets/images/thumbnail_asteroids.webp
 imageAlt: ""
 categories:
   - game

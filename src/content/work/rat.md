@@ -3,7 +3,7 @@ title: "RAT: Rogue Assassin Thief"
 software_used: Substance Painter, TopoGun, ZBrush
 description: This rogue/assassin/thief-type character was sculpted in ZBrush and textured using Substance Painter.
 description_seo: This rogue/assassin/thief-type character was sculpted in ZBrush and textured using Substance Painter.
-image: /src/assets/images/thumbnail_rat.png
+image: /src/assets/images/thumbnail_rat.webp
 imageAlt: ""
 categories:
   - graphic

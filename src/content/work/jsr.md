@@ -3,7 +3,7 @@ title: Jackson Stevens Resumes
 software_used: Adobe After Effects, Adobe Illustrator, Adobe Photoshop, HTML and CSS, Web Server
 description: Website with advanced design, 2D video production/motion graphics, and animated webpage backgrounds for a c-suite level resume preparation business.
 description_seo: Website with advanced design, 2D video production/motion graphics, and animated webpage backgrounds for a c-suite level resume preparation business.
-image: /src/assets/images/thumbnail_jsr.png
+image: /src/assets/images/thumbnail_jsr.webp
 imageAlt: ""
 categories:
   - website

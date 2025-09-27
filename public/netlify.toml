@@ -907,16 +907,6 @@
   status = 404
 
 [[redirects]]
-  from = "/thumbnail_*"
-  to = "/404"
-  status = 404
-
-[[redirects]]
-  from = "/icon_*"
-  to = "/404"
-  status = 404
-
-[[redirects]]
   from = "/p.pdf"
   to = "/404"
   status = 404

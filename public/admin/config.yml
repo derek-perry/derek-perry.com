@@ -6,9 +6,9 @@ backend:
 local_backend: true
 editor:
   preview: false
-media_folder: src/assets/images/media # Location where files will be stored in the repo - we store them in src so that Astro can optimize them.
-public_folder: src/assets/images/media # Ensure that this path is the same as the media_folder path above.
-logo_url: https://derek-perry.com/media/logo.svg # change url to a link to the image you want to use, no file paths, must be a URL
+media_folder: src/assets/images # Location where files will be stored in the repo - we store them in src so that Astro can optimize them.
+public_folder: src/assets/images # Ensure that this path is the same as the media_folder path above.
+logo_url: https://derek-perry.com/logo.svg # change url to a link to the image you want to use, no file paths, must be a URL
 display_url: https://derek-perry.com
 collections:
 # Define the collections that will be available in the CMS. Collections Docs = https://decapcms.org/docs/collection-folder  |  Widgets Docs = https://decapcms.org/docs/widgets

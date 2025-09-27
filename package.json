@@ -1,7 +1,7 @@
 {
   "name": "derek-perry",
   "type": "module",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "scripts": {
     "astro": "astro dev",
     "decap": "npx decap-server",
