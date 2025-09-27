@@ -23,7 +23,10 @@ const work = await getCollection("work");
       {
         work
           .filter(
-            (w) => w.data.categories && w.data.categories.includes("game"),
+            (w) =>
+              w.data.categories &&
+              w.data.categories.includes("game") &&
+              w.data.draft === false
           )
           .map((w) => <WorkLink work={w} index={work.indexOf(w)} />)
       }
@@ -37,7 +40,10 @@ const work = await getCollection("work");
       {
         work
           .filter(
-            (w) => w.data.categories && w.data.categories.includes("graphic"),
+            (w) =>
+              w.data.categories &&
+              w.data.categories.includes("graphic") &&
+              w.data.draft === false
           )
           .map((w) => <WorkLink work={w} index={work.indexOf(w)} />)
       }
@@ -51,7 +57,10 @@ const work = await getCollection("work");
       {
         work
           .filter(
-            (w) => w.data.categories && w.data.categories.includes("website"),
+            (w) =>
+              w.data.categories &&
+              w.data.categories.includes("website") &&
+              w.data.draft === false
           )
           .map((w) => <WorkLink work={w} index={work.indexOf(w)} />)
       }

@@ -1,9 +1,8 @@
 ---
 import { getCollection } from "astro:content";
-import { getCurrentYear } from "@js/utils";
 
 const details = await getCollection("details");
-const currentYear = getCurrentYear();
+const currentYear = new Date().getFullYear();
 ---
 
 <footer
@@ -39,7 +38,7 @@ const currentYear = getCurrentYear();
     </div>
   </section>
 
-  <section id="footerlinks">
+  <section id="footer-links">
     <ul
       class="justify-center items-center gap-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mx-auto list-none"
       aria-label="Footer social links"
@@ -56,7 +55,9 @@ const currentYear = getCurrentYear();
             >
               <span class="font-semibold">{item.label}</span>
               <br />
-              <span class="text-white text-sm whitespace-nowrap">{item.content}</span>
+              <span class="text-white text-sm whitespace-nowrap">
+                {item.content}
+              </span>
             </a>
           </li>
         ))
@@ -66,7 +67,12 @@ const currentYear = getCurrentYear();
 
   <section id="footer-credits" class="flex flex-col text-center">
     <p id="copyright" class="text-gray-400 text-xs">
-      Copyright {currentYear} {details[0].data.name} - <a class="text-gray-300 hover:text-gray-400 focus:text-gray-400 transition" title="Privacy Policy" href="/privacy">Privacy Policy</a>
+      Copyright {currentYear}
+      {details[0].data.name} - <a
+        class="text-gray-300 hover:text-gray-400 focus:text-gray-400 transition"
+        title="Privacy Policy"
+        href="/privacy">Privacy Policy</a
+      >
     </p>
   </section>
 </footer>

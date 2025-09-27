@@ -27,8 +27,7 @@
 }
 
 @utility button {
-  background-color: #7f1d1d;
-  border-radius: 0.5rem;
+  background-color: #689915;
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 1rem;
@@ -61,10 +60,6 @@
     text-decoration: none;
     text-decoration-line: none;
   }
-}
-
-@utility text-balance {
-  text-wrap: balance;
 }
 
 @layer base {

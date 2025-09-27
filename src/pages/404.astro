@@ -12,10 +12,11 @@ const details = await getCollection("details");
     " - " +
     details[0].data.description}
 >
-  {/* Error Section */}
   <section id="error-404" class="relative pt-20 pb-32">
     <div class="z-10 relative mx-auto px-6 container">
-      <div class="flex justify-center items-center mx-auto mb-12 max-w-[1320px] text-center align-middle">
+      <div
+        class="flex justify-center items-center mx-auto mb-12 max-w-[1320px] text-center align-middle"
+      >
         <h1
           id="Error 404"
           class="flex items-center gap-2 px-4 font-bold text-blue-400 text-center"
@@ -31,8 +32,7 @@ const details = await getCollection("details");
         <p class="mx-auto mt-6 max-w-xl">
           Please check the URL or return to the <a
             href="/"
-            title="Go to homepage"
-            >homepage</a
+            title="Go to homepage">homepage</a
           >.
         </p>
       </div>

@@ -12,12 +12,15 @@ tags:
   - Game Development
   - Website Design
   - Website Development
+date: ""
+draft: false
 ---
 Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!
 
 <hr>
 
 ![Logotype of Cosmos Cleaner](/assets/thumbnail_cc.webp)
+Logotype of Cosmos Cleaner
 
 <hr>
 

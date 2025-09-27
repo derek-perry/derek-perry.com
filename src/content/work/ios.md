@@ -10,6 +10,8 @@ categories:
 tags:
   - Website Design
   - Website Development
+date: April 10, 2020 - May 29, 2020
+draft: false
 ---
 Practice creating from scratch an E-Commerce site with a custom, modular shop using a mySQL database to set up shirts and their sizes, colors, fits, materials, etc.
 

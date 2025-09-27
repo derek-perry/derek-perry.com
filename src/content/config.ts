@@ -44,6 +44,8 @@ const worksCollection = defineCollection({
 			software_used: z.string(),
 			categories: z.array(z.string()).optional(),
 			tags: z.array(z.string()).optional(),
+			date: z.string().optional(),
+			draft: z.boolean().default(false).optional(),
 			image: image().or(z.string()).optional(),
 			imageAlt: z.string().optional(),
 		}),

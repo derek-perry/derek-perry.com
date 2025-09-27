@@ -9,7 +9,7 @@ export async function getStaticPaths() {
         params: { slug: work.slug },
         props: { work: work },
     }));
-};
+}
 
 const { work } = Astro.props;
 const content = await marked.parse(
@@ -21,7 +21,9 @@ const content = await marked.parse(
 const details = await getCollection("details");
 
 const envDomain = import.meta.env.SITE_URL?.trim();
-const domain = envDomain ? envDomain : ("https://" + details[0].data.domain.toLowerCase());
+const domain = envDomain
+    ? envDomain
+    : "https://" + details[0].data.domain.toLowerCase();
 ---
 
 <BaseLayout
@@ -43,21 +45,19 @@ const domain = envDomain ? envDomain : ("https://" + details[0].data.domain.toLo
 >
     <article
         id="work"
-        class="flex flex-col gap-4 mx-auto mt-8 px-6 pt-6 max-[460px]:pt-10 pb-32 max-w-3xl container"
+        class="flex flex-col gap-4 mx-auto mt-12 px-6 pt-6 max-[460px]:pt-10 pb-32 max-w-3xl container"
     >
         <section
             id="work-details"
-            class="flex flex-col justify-center items-center gap-4 mb-8 text-center"
+            class="flex flex-col justify-center items-center gap-4 mb-4 text-center"
         >
             <h1 id={work.data.title}>{work.data.title}</h1>
         </section>
         <section
             id="work-content"
-            class="flex flex-col justify-left items-stretch gap-4 mx-auto max-w-3xl"
+            class="flex flex-col justify-left items-stretch gap-2 mx-auto max-w-3xl text-left"
         >
-            <div id="work-content" class="mx-auto max-w-3xl">
-                <p set:html={content} />
-            </div>
+            <p set:html={content} />
         </section>
     </article>
 </BaseLayout>

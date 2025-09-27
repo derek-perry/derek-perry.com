@@ -13,6 +13,8 @@ tags:
   - Material/Shader Creation
   - Particle Creation
   - Video Editing
+date: October 12, 2019 - November 14, 2019
+draft: false
 ---
 Real-Time 3D Environment with textures and particle VFX, rendered in Unreal Engine. The goal was executing and filming a model and environment using Unreal Engine with a focus on technical integration like particle systems and texture transitions.
 

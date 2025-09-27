@@ -14,6 +14,8 @@ categories:
 tags:
   - Game Design
   - Game Development
+date: March 4, 2019 - March 12, 2019
+draft: false
 ---
 Simple 2D game coded from scratch in Processing. The simple goal for this was hand-coding a game in Processing with simple mechanics for practice with coding logic.
 

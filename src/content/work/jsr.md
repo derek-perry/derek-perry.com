@@ -10,6 +10,8 @@ categories:
 tags:
   - Website Design
   - Website Development
+date: April 5, 2021 - June 25, 2021
+draft: false
 ---
 Website with advanced design, 2D video production/motion graphics, and animated webpage backgrounds for a c-suite level resume preparation business.
 
