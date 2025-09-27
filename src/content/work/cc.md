@@ -3,7 +3,7 @@ title: Cosmos Cleaner
 software_used: Adobe Illustrator, Adobe Photoshop, Unreal Engine 5.3.2, GitHub, Next.js, Typescript, Tailwind CSS, MkDocs, Netlify
 description: Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!
 description_seo: Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!
-image: /public/media/thumbnail_cc.png
+image: /src/assets/images/thumbnail_cc.png
 imageAlt: ""
 categories:
   - game
@@ -17,7 +17,7 @@ Clean up space junk, upgrade your ship, and become the best cleaner in the cosmo
 
 <hr>
 
-![Logotype of Cosmos Cleaner](/public/media/thumbnail_cc.png)
+![Logotype of Cosmos Cleaner](/assets/thumbnail_cc.png)
 
 <hr>
 
