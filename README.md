@@ -16,7 +16,7 @@
 
 ## Copyright/License Information
 
-**Copyright © 2024-2025 [Derek Perry](https://derek-perry.com)**
+**Copyright © 2025 [Derek Perry](https://derek-perry.com)**
 
 **Some rights reserved.**
 
@@ -61,23 +61,6 @@ In `/src/content` , you will see a `config.ts` file. This is where you can confi
 This template already has Content Collections configured for immediate use of the blog content, but you could use them to power up the Portfolio or Gallery for example.
 
 Content Collections can also be used on content that is not created via the CMS.
-
-### Preloading images
-
-This kit takes advantage of the [preload attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/preload) to fetch images above the fold with higher priority, resulting in improved performances and reducing flashes of unstyled content. Preloaded images are used on the index page for the hero image as well as on all other pages in the Landing component.
-
-You will notice this snippet at the top of every `.astro` page:
-
-```jsx
----
-// Optimize our landing image and pass it as props to the BaseLayout (for preloading) and Landing (for rendering)
-import {getOptimizedImage} from "../js/utils"
-import landingImage from "../assets/images/landing.jpg" // <-- THE PATH TO THE ASSET YOU WANT TO PRELOAD - The asset must live in src
-const optimizedImage = await getOptimizedImage(landingImage)
----
-```
-
-You only need to change the path of the asset you want to preload. The rest is managed behind the scenes.
 
 ### Sitemap Configuration
 
