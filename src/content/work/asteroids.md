@@ -7,7 +7,7 @@ description: Simple 2D game coded from scratch in Processing. The simple goal
 description_seo: Simple 2D game coded from scratch in Processing. The simple
   goal for this was hand-coding a game in Processing with simple mechanics for
   practice with coding logic.
-image: src/assets/images/media/thumbnail_asteroids.png
+image: /public/media/thumbnail_asteroids.png
 imageAlt: ""
 categories:
   - game
@@ -19,15 +19,15 @@ Simple 2D game coded from scratch in Processing. The simple goal for this was ha
 
 <hr>
 
-![Asteroids Catch & Shoot Title Screen](src/assets/images/media/asteroids0_title.jpg)
+![Asteroids Catch & Shoot Title Screen](/public/media/asteroids0_title.jpg)
 
-![Asteroids Catch & Shoot Moodboard](src/assets/images/media/asteroids1_moodboard.jpg)
+![Asteroids Catch & Shoot Moodboard](/public/media/asteroids1_moodboard.jpg)
 
-![Asteroids Catch & Shoot Sketch](src/assets/images/media/asteroids2_sketches.jpg)
+![Asteroids Catch & Shoot Sketch](/public/media/asteroids2_sketches.jpg)
 
-![Asteroids Catch & Shoot Color – Idea/Render](src/assets/images/media/asteroids3_render.jpg)
+![Asteroids Catch & Shoot Color – Idea/Render](/public/media/asteroids3_render.jpg)
 
-![Asteroids Catch & Shoot – Final Result](src/assets/images/media/asteroids4_final.jpg)
+![Asteroids Catch & Shoot – Final Result](/public/media/asteroids4_final.jpg)
 
 <hr>
 

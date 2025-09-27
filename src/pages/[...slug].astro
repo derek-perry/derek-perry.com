@@ -9,7 +9,7 @@ export async function getStaticPaths() {
         params: { slug: work.slug },
         props: { work: work },
     }));
-}
+};
 
 const { work } = Astro.props;
 const content = await marked.parse(
@@ -17,6 +17,8 @@ const content = await marked.parse(
         ? work.body.replace(/\n(?=\n)/g, "\n\n<br/>\n")
         : "",
 );
+
+const details = await getCollection("details");
 ---
 
 <BaseLayout
@@ -32,8 +34,8 @@ const content = await marked.parse(
         : ""}
     image={work.data.image
         ? typeof work.data.image === "object"
-            ? work.data.image.src
-            : work.data.image
+            ? `https://${details[0].data.domain.toLowerCase()}${work.data.image.src}`
+            : `https://${details[0].data.domain.toLowerCase()}${work.data.image}`
         : undefined}
 >
     <article
@@ -50,7 +52,7 @@ const content = await marked.parse(
             id="work-content"
             class="flex flex-col justify-left items-stretch gap-4 mx-auto max-w-3xl"
         >
-            <div id="work-content" class="mx-auto max-w-3xl overflow-auto">
+            <div id="work-content" class="mx-auto max-w-3xl">
                 <p set:html={content} />
             </div>
         </section>

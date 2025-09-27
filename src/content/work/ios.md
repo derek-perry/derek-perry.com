@@ -3,7 +3,7 @@ title: Ideas On Stuff
 software_used: Adobe Illustrator, Adobe Photoshop, HTML and CSS, JavaScript, PHP
 description: Practice creating from scratch an E-Commerce site with a custom, modular shop using a mySQL database to set up shirts and their sizes, colors, fits, materials, etc.
 description_seo: Practice creating from scratch an E-Commerce site with a custom, modular shop using a mySQL database to set up shirts and their sizes, colors, fits, materials, etc.
-image: src/assets/images/media/thumbnail_ios.png
+image: /public/media/thumbnail_ios.png
 imageAlt: ""
 categories:
   - website
@@ -15,4 +15,4 @@ Practice creating from scratch an E-Commerce site with a custom, modular shop us
 
 <hr>
 
-![Ideas On Stuff – Custom Shop Page Screenshot](src/assets/images/media/ideasonstuff0_shop.jpg)
+![Ideas On Stuff – Custom Shop Page Screenshot](/public/media/ideasonstuff0_shop.jpg)
