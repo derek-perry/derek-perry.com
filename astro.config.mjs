@@ -3,8 +3,11 @@ import sitemap from "@astrojs/sitemap";
 import icon from "astro-icon";
 import tailwindcss from "@tailwindcss/vite";
 
+const envDomain = import.meta.env.SITE_URL?.trim();
+const domain = envDomain ? envDomain : "https://outputstarter.netlify.app";
+
 export default defineConfig({
-  site: "https://outputstarter.netlify.app",
+  site: domain,
   integrations: [
     icon(),
     sitemap({
