@@ -1,0 +1,78 @@
+---
+import { getCollection } from "astro:content";
+
+const details = await getCollection("details");
+const currentYear = new Date().getFullYear();
+---
+
+<footer
+  id="footer"
+  role="contentinfo"
+  class="flex flex-col justify-center items-center gap-20 bg-[#242929] px-3 pt-16 pb-8"
+  style="box-shadow: 0 -4px 6px -4px rgba(0,0,0,0.1);"
+>
+  <section
+    id="footer-container"
+    class="flex flex-col justify-center gap-0 mx-auto w-full max-w-screen-lg align-top item-start"
+  >
+    <div
+      id="footer-logo"
+      class="flex flex-col justify-center items-center text-center align-middle"
+    >
+      <a
+        href="/"
+        title={details[0].data.name}
+        class="group flex flex-row items-center gap-4 font-semibold text-4xl transition"
+      >
+        <img
+          src="/logo.svg"
+          alt={details[0].data.name}
+          width="50"
+          height="50"
+          decoding="async"
+          loading="lazy"
+          class="bg-transparent group-focus:opacity-60 group-hover:opacity-60 transition-opacity duration-200"
+        />
+        {details[0].data.name}
+      </a>
+    </div>
+  </section>
+
+  <section id="footer-links">
+    <ul
+      class="justify-center items-center gap-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mx-auto list-none"
+      aria-label="Footer social links"
+    >
+      {
+        details[0].data.socials.map((item) => (
+          <li class="relative">
+            <a
+              href={item.url}
+              class="block hover:bg-[#282d2d] hover:shadow-lg px-4 py-4 text-center transition"
+              title={item.title}
+              target={item.target}
+              rel={item.rel}
+            >
+              <span class="font-semibold">{item.label}</span>
+              <br />
+              <span class="text-white text-sm whitespace-nowrap">
+                {item.content}
+              </span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <section id="footer-credits" class="flex flex-col text-center">
+    <p id="copyright" class="text-gray-400 text-xs">
+      Copyright {currentYear}
+      {details[0].data.name} - <a
+        class="text-gray-300 hover:text-gray-400 focus:text-gray-400 transition"
+        title="Privacy Policy"
+        href="/privacy">Privacy Policy</a
+      >
+    </p>
+  </section>
+</footer>

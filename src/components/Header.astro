@@ -1,0 +1,122 @@
+---
+import { getCollection } from "astro:content";
+
+const details = await getCollection("details");
+---
+
+{/* Header */}
+<header id="header" class="shadow-lg w-full">
+  <nav
+    id="main-nav"
+    class="flex justify-between items-center gap-6 mx-auto px-6 py-1 min-[801px]:py-2.5 w-full align-middle"
+  >
+    <a
+      href="/"
+      title={details[0].data.name}
+      class="group flex flex-row items-center gap-4 font-semibold text-xl min-[350px]:text-2xl transition"
+    >
+      <img
+        src="/logo.svg"
+        alt={details[0].data.name}
+        width="32"
+        height="32"
+        decoding="async"
+        loading="lazy"
+        class="bg-transparent group-focus:opacity-60 group-hover:opacity-60 transition-opacity duration-200"
+      />
+      {details[0].data.name}
+    </a>
+    <!-- Desktop Navigation -->
+    <ul
+      class="hidden min-[801px]:flex flex-row gap-4 list-none"
+      aria-label="Main navigation"
+    >
+      {
+        details[0].data.nav.map((item) => (
+          <li class="relative">
+            <a
+              href={item.url}
+              class="hover:bg-[#242929] hover:shadow-lg px-4 py-3 font-semibold transition"
+              title={item.label}
+              target={item.new_tab ? "_blank" : undefined}
+              rel={item.new_tab ? "noopener noreferrer" : undefined}
+            >
+              {item.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+    <!-- Mobile Navigation -->
+    <div class="min-[801px]:hidden relative">
+      <button
+        id="menu-button"
+        aria-label="Open navigation menu"
+        aria-controls="mobile-menu"
+        aria-expanded="false"
+        title="Open navigation menu"
+        type="button"
+        class="group p-2 cursor-pointer"
+        onclick="
+          const menu = document.getElementById('mobile-menu');
+          const btn = document.getElementById('menu-button');
+          const expanded = btn.getAttribute('aria-expanded') === 'true';
+          btn.setAttribute('aria-expanded', !expanded);
+          menu.classList.toggle('hidden');
+          if (!expanded) {
+            menu.querySelector('a')?.focus();
+          }
+        "
+      >
+        <img
+          src="/menu.svg"
+          alt="Menu"
+          width="28"
+          height="28"
+          decoding="async"
+          loading="lazy"
+          class="bg-transparent group-focus:opacity-60 group-hover:opacity-60 transition-opacity duration-200"
+        />
+      </button>
+      <ul
+        id="mobile-menu"
+        class="hidden right-0 z-50 absolute flex-col gap-2 bg-[#282d2d] shadow-lg border border-[#242929] divide-y divide-[#242929] list-none"
+        role="menu"
+        aria-label="Mobile main navigation"
+        tabindex="-1"
+      >
+        {
+          details[0].data.nav.map((item) => (
+            <li role="none">
+              <a
+                href={item.url}
+                class="block hover:bg-[#242929] px-6 py-4 decoration-none no-underline transition"
+                title={item.label}
+                role="menuitem"
+                tabindex="0"
+                target={item.new_tab ? "_blank" : undefined}
+                rel={item.new_tab ? "noopener noreferrer" : undefined}
+              >
+                {item.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </nav>
+  <script is:inline>
+    // Close mobile menu when clicking outside
+    document.addEventListener("click", function (e) {
+      const menu = document.getElementById("mobile-menu");
+      const btn = document.getElementById("menu-button");
+      if (!menu || !btn) return;
+      const expanded = btn.getAttribute("aria-expanded") === "true";
+      if (!expanded) return;
+      if (!menu.contains(e.target) && !btn.contains(e.target)) {
+        menu.classList.add("hidden");
+        btn.setAttribute("aria-expanded", "false");
+      }
+    });
+  </script>
+</header>

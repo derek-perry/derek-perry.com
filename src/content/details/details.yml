@@ -1,0 +1,75 @@
+name: Derek Perry
+email: dp@derek-perry.com
+tagline: "Interactive Design : Game, Graphic, and Web"
+description: Derek Perry is a web developer and designer specializing in creating modern, responsive websites that help businesses establish a strong online presence.
+domain: Derek-Perry.com
+nav:
+- label: Games
+  url: /#games
+  new_tab: false
+- label: Graphics
+  url: /#graphics
+  new_tab: false
+- label: Websites
+  url: /#websites
+socials:
+- label: GitHub
+  url: https://github.com/derek-perry
+  title: "derek-perry on GitHub"
+  content: "derek-perry"
+  target: _blank
+  rel: noopener noreferrer
+- label: LinkedIn
+  url: https://linkedin.com/in/derek-perry
+  title: "derek-perry on LinkedIn"
+  content: "derek-perry"
+  target: _blank
+  rel: noopener noreferrer
+- label: YouTube
+  url: https://youtube.com/@derek-perry
+  title: "@derek-perry on YouTube"
+  content: "@derek-perry"
+  target: _blank
+  rel: noopener noreferrer
+- label: Twitch
+  url: https://twitch.tv/derekperry
+  title: "derekperry on Twitch"
+  content: "derekperry"
+  target: _blank
+  rel: noopener noreferrer
+- label: Twitter
+  url: https://twitter.com/_derekperry
+  title: "_derekperry on Twitter"
+  content: "_derekperry"
+  target: _blank
+  rel: noopener noreferrer
+- label: ArtStation
+  url: https://artstation.com/derekperry
+  title: "derekperry on ArtStation"
+  content: "derekperry"
+  target: _blank
+  rel: noopener noreferrer
+- label: Mastodon
+  url: https://mastodon.gamedev.place/@dp
+  title: "@dp on Mastodon.gamedev.place"
+  content: "@dp@mastodon.gamedev.place"
+  target: _blank
+  rel: me noopener noreferrer
+- label: Email
+  url: mailto:dp@derek-perry.com
+  title: "Email Derek Perry (Work: dp@derek-perry.com)"
+  content: "dp@derek-perry.com (Work)"
+  target: _blank
+  rel: noopener noreferrer
+keywords:
+- derek
+- perry
+- derek perry
+- developer
+- website
+- websites
+- web design
+- website design
+- web designer
+- design
+- designer

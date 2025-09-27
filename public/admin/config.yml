@@ -1,0 +1,82 @@
+# See full Decap documentation for further configuration: https://decapcms.org/docs/intro/
+backend:
+  name: git-gateway
+  repo: derek-perry/derek-perry.com # Path to the relevant GitHub repository: owner-name/repo-name
+  branch: main # Branch to update, defaults to master
+local_backend: true
+editor:
+  preview: false
+media_folder: src/assets/images # Location where files will be stored in the repo - we store them in src so that Astro can optimize them.
+public_folder: src/assets/images # Ensure that this path is the same as the media_folder path above.
+logo_url: https://derek-perry.com/logo.svg # change url to a link to the image you want to use, no file paths, must be a URL
+display_url: https://derek-perry.com
+collections:
+# Define the collections that will be available in the CMS. Collections Docs = https://decapcms.org/docs/collection-folder  |  Widgets Docs = https://decapcms.org/docs/widgets
+- label: "Business Details" # Used in the admin dashboard UI
+  name: "details" # Used in routes, e.g., /admin/collections/blog. Is also the key when fetching data from the CMS.
+  files:
+  - label: "Business Details" # Used in the admin dashboard UI
+    name: "details" # Used in routes, e.g., /admin/collections/blog. Is also the key when fetching data from the CMS.
+    file: "src/content/details/details.yml" # The path to the folder where the documents are stored
+    fields:
+    - { label: "Name", name: "name", widget: "string", hint: "Full name of the business." }
+    - { label: "Email", name: "email", widget: "string", hint: "Email of the business." }
+    - { label: "Tagline", name: "tagline", widget: "text", hint: "Short tagline for the business. (Max 1 sentence (40 character max)." }
+    - { label: "Description", name: "description", widget: "text", hint: "Short description of the business. (Max 1-2 sentences (140 character max)." }
+    - { label: "Domain", name: "domain", widget: "string", hint: "Domain name (website link/URL) of the business." }
+    - label: "Nav"
+      name: "nav"
+      label_singular: "Nav Item"
+      widget: "list"
+      add_to_top: true
+      collapsed: true
+      minimize_collapsed: true
+      summary: "{{fields.label}}"
+      fields:
+      - { label: Label, name: label, widget: string, hint: "Label of the navigation item." }
+      - { label: URL, name: url, widget: string, hint: "URL of the navigation item." }
+      - { label: New Tab, name: new_tab, widget: boolean, default: false, hint: "Open link in a new tab." }
+    - label: "Socials"
+      name: "socials"
+      label_singular: "Social Link"
+      widget: "list"
+      add_to_top: true
+      collapsed: true
+      minimize_collapsed: true
+      summary: "{{fields.label}}"
+      fields:
+      - { label: Label, name: label, widget: string, hint: "Label of the social link." }
+      - { label: URL, name: url, widget: string, hint: "URL of the social link." }
+      - { label: Title, name: title, widget: string, hint: "Title/alt text for the social link." }
+      - { label: Content, name: content, widget: string, hint: "Content of the social link." }
+      - { label: Target, name: target, widget: string, hint: "Open link in a new tab. (ONLY _blank | _self [DEFAULT] | _parent | _top | framename)." }
+      - { label: Rel Attribute, name: rel, widget: string, hint: "Link relationship. (Examples: noopener | noreferrer | nofollow | author | bookmark | external | help | license | next | prev | me)." }
+    - label: "Keywords"
+      name: "keywords"
+      label_singular: "Keyword"
+      widget: "list"
+      add_to_top: true
+      collapsed: true
+      minimize_collapsed: true
+      summary: "{{fields.keyword}}"
+      field: { label: Keyword, name: keyword, widget: string, hint: "Keyword that describes any aspect of the business which someone may use to search for the business." }
+- name: "work" # Used in routes, e.g., /admin/collections/blog. Is also the key when fetching data from the CMS.
+  label: "Works" # Used in the admin dashboard UI
+  label_singular: "Work" # Used in the admin dashboard UI
+  description: "Works are the projects in the games, graphics, websites categories." # Used in the admin dashboard UI
+  identifier_field: title # The field that will be used to identify the document in the CMS
+  folder: "src/content/work" # The path to the folder where the documents are stored
+  slug: "{{slug}}" # Use the filename as the root slug
+  create: true # Allow users to create new documents in this collection
+  fields:
+  - { label: "Title", name: "title", widget: "string", hint: "Keep titles brief yet descriptive." }
+  - { label: "Body", name: "body", widget: "markdown", required: false, hint: "Write the main work content in the box above." }
+  - { label: "Software Used", name: "software_used", widget: "string", hint: "Add the software used to create the work. (E.g., Unity, Blender, Photoshop, Illustrator, Figma, etc.)" }
+  - { label: "Description", name: "description", widget: "string", hint: "Add a short description of the work. (Shown in work cards). (Max 1-2 sentences (140 character max)." }
+  - { label: "Description (SEO)", name: "description_seo", widget: "string", hint: "Add a short description of the work. (Shown in SEO Meta Cards). (Max 1-2 sentences (140 character max)." }
+  - { label: "Featured Image", name: "image", widget: "image", required: false, hint: "Add a photo to display in SEO meta cards." }
+  - { label: "Featured Image Caption", name: "imageAlt", widget: "string", required: false, hint: "Add a caption to describe the featured image." }
+  - { label: "Categories", name: "categories", widget: "list", required: false, hint: "Add comma-separated categories to help categorize the work. (ONLY game | graphic | website)" }
+  - { label: "Tags", name: "tags", widget: "list", required: false, hint: "Add comma-separated tags to help categorize the work. (Don't press space!)" }
+  - { label: "Date", name: "date", widget: "string", hint: "The date range the work was created and worked on in. (ie. March 4, 2019 - August 12, 2019)" }
+  - { label: "Draft", name: "draft", widget: "boolean", default: false, hint: "Check this box to save the work as a draft. (Draft works will not be published on the live site)." }

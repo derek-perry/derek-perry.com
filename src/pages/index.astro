@@ -1,0 +1,69 @@
+---
+import BaseLayout from "src/layouts/BaseLayout.astro";
+import WorkLink from "@components/WorkLink.astro";
+import { getCollection } from "astro:content";
+
+const details = await getCollection("details");
+const work = await getCollection("work");
+---
+
+<BaseLayout
+  title={details[0].data.name}
+  description={details[0].data.description}
+>
+  <section
+    id="portfolio"
+    class="flex flex-col justify-center items-center mx-auto mt-12 mb-32 px-8 max-w-screen-xl text-center"
+  >
+    <h2 class="font-semibold" id="games">Games</h2>
+    <div
+      id="works-games"
+      class="justify-center items-center gap-8 grid grid-cols-1 sm:grid-cols-2 mx-auto pt-4 pb-8 border-[#242929] border-b"
+    >
+      {
+        work
+          .filter(
+            (w) =>
+              w.data.categories &&
+              w.data.categories.includes("game") &&
+              w.data.draft === false
+          )
+          .map((w) => <WorkLink work={w} index={work.indexOf(w)} />)
+      }
+    </div>
+    <hr />
+    <h2 class="font-semibold" id="graphics">2D/3D Graphics</h2>
+    <div
+      id="works-graphics"
+      class="justify-center items-center gap-8 grid grid-cols-1 sm:grid-cols-2 mx-auto pt-4 pb-8 border-[#242929] border-b"
+    >
+      {
+        work
+          .filter(
+            (w) =>
+              w.data.categories &&
+              w.data.categories.includes("graphic") &&
+              w.data.draft === false
+          )
+          .map((w) => <WorkLink work={w} index={work.indexOf(w)} />)
+      }
+    </div>
+    <hr />
+    <h2 class="font-semibold" id="websites">Websites</h2>
+    <div
+      id="works-websites"
+      class="justify-center items-center gap-8 grid grid-cols-1 sm:grid-cols-2 mx-auto pt-4"
+    >
+      {
+        work
+          .filter(
+            (w) =>
+              w.data.categories &&
+              w.data.categories.includes("website") &&
+              w.data.draft === false
+          )
+          .map((w) => <WorkLink work={w} index={work.indexOf(w)} />)
+      }
+    </div>
+  </section>
+</BaseLayout>
