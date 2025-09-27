@@ -29,7 +29,7 @@
 # CURRENT ACTIVE PAGES =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 # https://derek-perry.com
 # https://derek-perry.com/cc
-# https://derek-perry.com/m3
+# https://derek-perry.com/m3 (DRAFT)
 # https://derek-perry.com/m3privacy
 # https://derek-perry.com/ss
 # https://derek-perry.com/roachrun
@@ -43,7 +43,7 @@
 # https://derek-perry.com/ymu
 # https://derek-perry.com/pmd
 # https://derek-perry.com/jdm
-# https://derek-perry.com/lni
+# https://derek-perry.com/lni (DRAFT)
 # https://derek-perry.com/jsr
 # https://derek-perry.com/wsc
 # https://derek-perry.com/ios
@@ -53,17 +53,6 @@
 # Redirects to:
 # Homepage
 #------------------------------------------------------------------
-[[redirects]]
-  from = "https://derek-perry.netlify.app"
-  to = "https://derek-perry.com"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "https://derekperry.netlify.app"
-  to = "https://derek-perry.com"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/home"

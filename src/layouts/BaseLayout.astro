@@ -13,6 +13,8 @@ const details = await getCollection("details");
 
 const envDomain = import.meta.env.SITE_URL?.trim();
 const domain = envDomain ? envDomain : ("https://" + details[0].data.domain.toLowerCase());
+
+const titleClean = Astro.url.pathname === "/" ? `${details[0].data.name} - ${details[0].data.tagline}` : `${title} | ${details[0].data.name}`
 ---
 
 <html lang="en">
@@ -44,25 +46,22 @@ const domain = envDomain ? envDomain : ("https://" + details[0].data.domain.toLo
       rel="canonical"
       href={`${domain}${Astro.url.pathname}`}
     />
-    <title>
-      {
-        Astro.url.pathname === "/"
-          ? `${details[0].data.name} - ${details[0].data.tagline}`
-          : `${title} | ${details[0].data.name}`
-      }
-    </title>
-    <meta property="og:title" content={title} />
-    <meta property="og:site_name" content={title} />
-    <meta name="application-name" content={title} />
-    <meta name="apple-mobile-web-app-title" content={title} />
-    <meta name="twitter:title" content={title} />
+    <title>{titleClean}</title>
+    <meta property="og:title" content={titleClean} />
+    <meta property="og:site_name" content={titleClean} />
+    <meta name="application-name" content={titleClean} />
+    <meta name="apple-mobile-web-app-title" content={titleClean} />
+    <meta name="twitter:title" content={titleClean} />
+
     <meta name="description" content={description} />
     <meta property="og:description" content={description} />
     <meta name="twitter:description" content={description} />
+
     <meta
       property="og:url"
       content={`${domain}${Astro.url.pathname}`}
     />
+    
     {(image && image != undefined) ? (
       <meta property="og:image" content={image} />
       <meta
@@ -80,11 +79,11 @@ const domain = envDomain ? envDomain : ("https://" + details[0].data.domain.toLo
     )}
     <meta property="og:image:width" content="1920" />
     <meta property="og:image:height" content="1080" />
-    <meta property="og:image:alt" content={title} />
+    <meta property="og:image:alt" content={titleClean} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image:width" content="1920" />
     <meta name="twitter:image:height" content="1080" />
-    <meta name="twitter:image:alt" content={title} />
+    <meta name="twitter:image:alt" content={titleClean} />
 
     <link
       rel="icon"

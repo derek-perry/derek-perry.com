@@ -1,4 +1,4 @@
-import { z, defineCollection, reference } from "astro:content";
+import { z, defineCollection } from "astro:content";
 
 // Every collection must reflect Decap's config.yml collection schema
 // In order to be able to optimize images with Astro built-in components, like <Image />, we first must use this image helper 
