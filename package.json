@@ -1,7 +1,7 @@
 {
   "name": "derek-perry",
   "type": "module",
-  "version": "2.7.0",
+  "version": "2.8.0",
   "scripts": {
     "astro": "astro dev",
     "decap": "npx decap-server",
@@ -15,7 +15,7 @@
     "@astrojs/sitemap": "^3.6.0",
     "@fontsource-variable/saira": "^5.2.10",
     "@tailwindcss/vite": "^4.1.13",
-    "astro": "^5.14.1",
+    "astro": "^5.14.4",
     "astro-icon": "^1.1.5",
     "autoprefixer": "^10.4.21",
     "decap-server": "^3.3.1",
