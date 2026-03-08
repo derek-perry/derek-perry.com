@@ -1,8 +1,10 @@
 ---
 title: Lo-fi Noire
 software_used: Perforce, Unreal Engine 4
-description: Mystery RPG Adventure game featuring a detective’s investigation in a retro lo-fi city.
-description_seo: Mystery RPG Adventure game featuring a detective’s investigation in a retro lo-fi city.
+description: Mystery RPG Adventure game featuring a detective’s investigation in
+  a retro lo-fi city.
+description_seo: Mystery RPG Adventure game featuring a detective’s
+  investigation in a retro lo-fi city.
 image: /src/assets/images/thumbnail_lofinoire.webp
 imageAlt: ""
 categories:
@@ -13,6 +15,7 @@ tags:
   - Video Editing
 date: July 2, 2020 - August 27, 2020
 draft: false
+order: 3
 ---
 Mystery RPG Adventure game featuring a detective’s investigation in a retro lo-fi city. The bulk of my work on this project consisted of gameplay programming. As Tech Lead, I set up a Perforce server which got the team on Source Control, I set up and organized bulk tech systems like clues and levels, and I set up and designed the website. Shown below is my work featured, but head over to the Lo-fi Noire website to see the entire game’s progress!
 

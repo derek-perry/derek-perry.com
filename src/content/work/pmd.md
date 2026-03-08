@@ -1,8 +1,15 @@
 ---
 title: Piano Music Database
-software_used: Adobe Illustrator, Adobe Photoshop, HTML, CSS (Tailwind CSS), JavaScript (Next.js)
-description: Piano Music Database (PMD) is a free online tool that helps you easily & quickly find music for your piano students. Search for pieces that incorporate specific pedagogical concepts; filter your results by mood, theme, style, and more!
-description_seo: Piano Music Database (PMD) is a free online tool that helps you easily & quickly find music for your piano students. Search for pieces that incorporate specific pedagogical concepts; filter your results by mood, theme, style, and more!
+software_used: Adobe Illustrator, Adobe Photoshop, HTML, CSS (Tailwind CSS),
+  JavaScript (Next.js)
+description: Piano Music Database (PMD) is a free online tool that helps you
+  easily & quickly find music for your piano students. Search for pieces that
+  incorporate specific pedagogical concepts; filter your results by mood, theme,
+  style, and more!
+description_seo: Piano Music Database (PMD) is a free online tool that helps you
+  easily & quickly find music for your piano students. Search for pieces that
+  incorporate specific pedagogical concepts; filter your results by mood, theme,
+  style, and more!
 image: /src/assets/images/thumbnail_pmd.webp
 imageAlt: ""
 categories:
@@ -15,6 +22,7 @@ tags:
   - Video Editing
 date: May 3, 2020 - Present
 draft: false
+order: 1
 ---
 Piano Music Database (PMD) is a free online tool that helps you easily & quickly find music for your piano students. Search for pieces that incorporate specific pedagogical concepts; filter your results by mood, theme, style, and more!
 

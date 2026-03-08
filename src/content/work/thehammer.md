@@ -1,8 +1,13 @@
 ---
 title: The Hammer
-software_used: Adobe Photoshop, Autodesk Maya, Substance Designer, Substance Painter, Unreal Engine 4
-description: Real-Time 3D Environment with textures and particle VFX, rendered in Unreal Engine.
-description_seo: Real-Time 3D Environment with textures and particle VFX, rendered in Unreal Engine. The goal was executing and filming a model and environment using Unreal Engine with a focus on technical integration like particle systems and texture transitions.
+software_used: Adobe Photoshop, Autodesk Maya, Substance Designer, Substance
+  Painter, Unreal Engine 4
+description: Real-Time 3D Environment with textures and particle VFX, rendered
+  in Unreal Engine.
+description_seo: Real-Time 3D Environment with textures and particle VFX,
+  rendered in Unreal Engine. The goal was executing and filming a model and
+  environment using Unreal Engine with a focus on technical integration like
+  particle systems and texture transitions.
 image: /src/assets/images/thumbnail_thehammer.webp
 imageAlt: ""
 categories:
@@ -15,6 +20,7 @@ tags:
   - Video Editing
 date: October 12, 2019 - November 14, 2019
 draft: false
+order: 1
 ---
 Real-Time 3D Environment with textures and particle VFX, rendered in Unreal Engine. The goal was executing and filming a model and environment using Unreal Engine with a focus on technical integration like particle systems and texture transitions.
 

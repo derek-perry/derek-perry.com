@@ -1,8 +1,10 @@
 ---
 title: JDM of Washington
 software_used: Adobe Illustrator, Adobe Photoshop, HTML and CSS, Web Server
-description: WooCommerce e-commerce website for a Japanese Domestic Market (JDM)/automotive import and sales business.
-description_seo: WooCommerce e-commerce website for a Japanese Domestic Market (JDM)/automotive import and sales business.
+description: WooCommerce e-commerce website for a Japanese Domestic Market
+  (JDM)/automotive import and sales business.
+description_seo: WooCommerce e-commerce website for a Japanese Domestic Market
+  (JDM)/automotive import and sales business.
 image: /src/assets/images/thumbnail_jdm.webp
 imageAlt: ""
 categories:
@@ -13,6 +15,7 @@ tags:
   - Graphic Design
 date: September 14, 2021 - February 25, 2022
 draft: false
+order: 4
 ---
 WooCommerce e-commerce website for a Japanese Domestic Market (JDM)/automotive import and sales business.
 

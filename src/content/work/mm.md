@@ -1,8 +1,13 @@
 ---
 title: "Materials: Manufactured"
-software_used: Adobe Photoshop, Autodesk Maya, Substance Designer, Substance Painter, Unreal Engine 4
-description: This project called for materials, made in Substance Designer, that could be considered manufactured/processed. These materials were given two variations; new and old.
-description_seo: This project called for materials, made in Substance Designer, that could be considered manufactured/processed. These materials were given two variations; new and old.
+software_used: Adobe Photoshop, Autodesk Maya, Substance Designer, Substance
+  Painter, Unreal Engine 4
+description: This project called for materials, made in Substance Designer, that
+  could be considered manufactured/processed. These materials were given two
+  variations; new and old.
+description_seo: This project called for materials, made in Substance Designer,
+  that could be considered manufactured/processed. These materials were given
+  two variations; new and old.
 image: /src/assets/images/thumbnail_mm.webp
 imageAlt: ""
 categories:
@@ -13,6 +18,7 @@ tags:
   - Material/Shader Creation
 date: January 23, 2020 – February 13, 2020
 draft: false
+order: 3
 ---
 This project called for materials, made in Substance Designer, that could be considered manufactured/processed. These materials were given two variations; new and old. The scene was captured and rendered in real-time with Unreal Engine.
 

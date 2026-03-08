@@ -1,8 +1,13 @@
 ---
 title: "Materials: Seamless and Procedural"
-software_used: Adobe Photoshop, Autodesk Maya, Substance Designer, Substance Painter, Unreal Engine 4
-description: Seamless and procedural materials created in Substance Alchemist/Bitmap2Material using photographs taken of the real texture and Substance Designer respectively.
-description_seo: Seamless and procedural materials created in Substance Alchemist/Bitmap2Material using photographs taken of the real texture and Substance Designer respectively.
+software_used: Adobe Photoshop, Autodesk Maya, Substance Designer, Substance
+  Painter, Unreal Engine 4
+description: Seamless and procedural materials created in Substance
+  Alchemist/Bitmap2Material using photographs taken of the real texture and
+  Substance Designer respectively.
+description_seo: Seamless and procedural materials created in Substance
+  Alchemist/Bitmap2Material using photographs taken of the real texture and
+  Substance Designer respectively.
 image: /src/assets/images/thumbnail_mp.webp
 imageAlt: ""
 categories:
@@ -13,6 +18,7 @@ tags:
   - Material/Shader Creation
 date: January 7, 2020 – January 23, 2020
 draft: false
+order: 4
 ---
 The project asked for a seamless material to be created in Substance Alchemist/Bitmap2Material using photographs taken of the real texture. The project also called for three other materials made procedurally in Substance Designer’s material graph editor. The four materials created are applied to simple primitive shapes and rendered in Unreal Engine at real-time.
 

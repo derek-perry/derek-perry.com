@@ -1,8 +1,10 @@
 ---
 title: Space Scavenger
 software_used: Adobe Illustrator, Adobe Photoshop, Autodesk Maya, Unreal Engine 4
-description: Tech Demo for a space vehicle game concept similar to classics Asteroids and Lunar Lander, but with a 2.5D adaption.
-description_seo: Tech Demo for a space vehicle game concept similar to classics Asteroids and Lunar Lander, but with a 2.5D adaption.
+description: Tech Demo for a space vehicle game concept similar to classics
+  Asteroids and Lunar Lander, but with a 2.5D adaption.
+description_seo: Tech Demo for a space vehicle game concept similar to classics
+  Asteroids and Lunar Lander, but with a 2.5D adaption.
 image: /src/assets/images/thumbnail_ss.webp
 imageAlt: ""
 categories:
@@ -12,6 +14,7 @@ tags:
   - Game Development
 date: March 26, 2019 - May 29, 2019
 draft: false
+order: 5
 ---
 Tech Demo for a space vehicle game concept similar to classics Asteroids and Lunar Lander, but with a 2.5D adaption.
 The current state of the tech demo contains the majority of the root mechanics for the game loop. Shooting, Collecting, Homebase Stations, and Movement with its fuel usage, damage on collisions, and overall control-feel all make up the focus of feedback in this demo. The more natural and fun the movement and interaction, the easier it will be to move onto aesthetics and tie it all together with a narrative/theme.

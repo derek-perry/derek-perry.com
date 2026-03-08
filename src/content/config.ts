@@ -48,6 +48,7 @@ const worksCollection = defineCollection({
 			draft: z.boolean().default(false).optional(),
 			image: image().or(z.string()).optional(),
 			imageAlt: z.string().optional(),
+			order: z.number().optional(),
 		}),
 });
 

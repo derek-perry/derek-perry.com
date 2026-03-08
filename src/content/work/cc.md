@@ -1,8 +1,11 @@
 ---
 title: Cosmos Cleaner
-software_used: Adobe Illustrator, Adobe Photoshop, Unreal Engine 5.3.2, GitHub, Next.js, Typescript, Tailwind CSS, MkDocs, Netlify
-description: Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!
-description_seo: Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!
+software_used: Adobe Illustrator, Adobe Photoshop, Unreal Engine 5.3.2, GitHub,
+  Next.js, Typescript, Tailwind CSS, MkDocs, Netlify
+description: Clean up space junk, upgrade your ship, and become the best cleaner
+  in the cosmos!
+description_seo: Clean up space junk, upgrade your ship, and become the best
+  cleaner in the cosmos!
 image: /src/assets/images/thumbnail_cc.webp
 imageAlt: ""
 categories:
@@ -12,8 +15,9 @@ tags:
   - Game Development
   - Website Design
   - Website Development
-date: ""
+date: Dec 5, 2022 - Present
 draft: false
+order: 1
 ---
 Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!
 

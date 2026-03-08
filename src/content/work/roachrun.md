@@ -12,6 +12,7 @@ tags:
   - Game Development
 date: March 26, 2019 - May 29, 2019
 draft: false
+order: 2
 ---
 Roach Run is a first-person collect-a-thon arcade game made in Unreal Engine. This was the first game I made in Unreal Engine. The goal was carrying out a simple game design idea with a focus on game tech and mechanics using Unreal Engine. The project’s focus on game tech creation had me diving into Unreal Engine blueprints using third-party/sourced assets to execute on a complete game design idea.
 

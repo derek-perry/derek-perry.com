@@ -1,8 +1,13 @@
 ---
 title: WorkSource Coastal
-software_used: Adobe After Effects, Adobe Illustrator, Adobe Photoshop, HTML and CSS, Web Server
-description: Job sourcing business in the Savannah, Georgia area needed services including website design, graphic design, motion graphics, IT services, and social media assistance.
-description_seo: Job sourcing business in the Savannah, Georgia area needed services including website design, graphic design, motion graphics, IT services, and social media assistance.
+software_used: Adobe After Effects, Adobe Illustrator, Adobe Photoshop, HTML and
+  CSS, Web Server
+description: Job sourcing business in the Savannah, Georgia area needed services
+  including website design, graphic design, motion graphics, IT services, and
+  social media assistance.
+description_seo: Job sourcing business in the Savannah, Georgia area needed
+  services including website design, graphic design, motion graphics, IT
+  services, and social media assistance.
 image: /src/assets/images/thumbnail_wsc.webp
 imageAlt: ""
 categories:
@@ -13,6 +18,7 @@ tags:
   - Video Editing
 date: July, 2018 - April, 2021
 draft: false
+order: 5
 ---
 Job sourcing business in the Savannah, Georgia area needed services including website design, graphic design, motion graphics, IT services, and social media assistance.
 

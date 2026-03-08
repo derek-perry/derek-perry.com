@@ -1,8 +1,10 @@
 ---
 title: "RAT: Rogue Assassin Thief"
 software_used: Substance Painter, TopoGun, ZBrush
-description: This rogue/assassin/thief-type character was sculpted in ZBrush and textured using Substance Painter.
-description_seo: This rogue/assassin/thief-type character was sculpted in ZBrush and textured using Substance Painter.
+description: This rogue/assassin/thief-type character was sculpted in ZBrush and
+  textured using Substance Painter.
+description_seo: This rogue/assassin/thief-type character was sculpted in ZBrush
+  and textured using Substance Painter.
 image: /src/assets/images/thumbnail_rat.webp
 imageAlt: ""
 categories:
@@ -14,6 +16,7 @@ tags:
   - Material/Shader Creation
 date: January 13, 2020 - March 11, 2020
 draft: false
+order: 2
 ---
 This rogue/assassin/thief-type character was sculpted in ZBrush and textured using Substance Painter.
 The model was produced while taking part in a Digital Sculpting course at Savannah College of Art & Design. The Digital Sculpting course at SCAD introduced sculpting into my modelling tool set. Choosing a character with an un-emphasized aesthetic like a rogue, assassin or thief allowed me to focus on learning ZBrush and character modelling workflow.

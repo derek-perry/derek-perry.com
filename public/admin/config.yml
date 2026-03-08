@@ -80,3 +80,4 @@ collections:
   - { label: "Tags", name: "tags", widget: "list", required: false, hint: "Add comma-separated tags to help categorize the work. (Don't press space!)" }
   - { label: "Date", name: "date", widget: "string", hint: "The date range the work was created and worked on in. (ie. March 4, 2019 - August 12, 2019)" }
   - { label: "Draft", name: "draft", widget: "boolean", default: false, hint: "Check this box to save the work as a draft. (Draft works will not be published on the live site)." }
+  - { label: "Order", name: "order", widget: "number", value_type: "int", hint: "Set the display order of this work within its category. (Lower numbers appear first)." }

@@ -28,6 +28,7 @@ const work = await getCollection("work");
               w.data.categories.includes("game") &&
               w.data.draft === false
           )
+          .sort((a, b) => (a.data.order ?? Infinity) - (b.data.order ?? Infinity))
           .map((w) => <WorkLink work={w} index={work.indexOf(w)} />)
       }
     </div>
@@ -45,6 +46,7 @@ const work = await getCollection("work");
               w.data.categories.includes("graphic") &&
               w.data.draft === false
           )
+          .sort((a, b) => (a.data.order ?? Infinity) - (b.data.order ?? Infinity))
           .map((w) => <WorkLink work={w} index={work.indexOf(w)} />)
       }
     </div>
@@ -62,6 +64,7 @@ const work = await getCollection("work");
               w.data.categories.includes("website") &&
               w.data.draft === false
           )
+          .sort((a, b) => (a.data.order ?? Infinity) - (b.data.order ?? Infinity))
           .map((w) => <WorkLink work={w} index={work.indexOf(w)} />)
       }
     </div>
