@@ -1,13 +1,9 @@
 ---
-title: "Materials: Seamless and Procedural"
+title: "Materials: Procedural"
 software_used: Adobe Photoshop, Autodesk Maya, Substance Designer, Substance
   Painter, Unreal Engine 4
-description: Seamless and procedural materials created in Substance
-  Alchemist/Bitmap2Material using photographs taken of the real texture and
-  Substance Designer respectively.
-description_seo: Seamless and procedural materials created in Substance
-  Alchemist/Bitmap2Material using photographs taken of the real texture and
-  Substance Designer respectively.
+description: Procedural materials created in Substance Designer.
+description_seo: Procedural materials created in Substance Designer.
 image: /src/assets/images/thumbnail_mp.webp
 imageAlt: ""
 categories:
@@ -20,22 +16,15 @@ date: January 7, 2020 – January 23, 2020
 draft: false
 order: 4
 ---
-The project asked for a seamless material to be created in Substance Alchemist/Bitmap2Material using photographs taken of the real texture. The project also called for three other materials made procedurally in Substance Designer’s material graph editor. The four materials created are applied to simple primitive shapes and rendered in Unreal Engine at real-time.
+The project called for three other materials made procedurally in Substance Designer’s material graph editor.
+The three materials created are applied to simple primitive shapes and rendered in Unreal Engine in real-time.
 
 <hr>
 
-<video controls autoplay muted loop preload="auto" poster="/assets/materials3_seamless-grass.jpg" alt="Seamless Materials - Video Showcase">
+<video controls autoplay muted loop preload="auto" poster="/assets/materials3_seamless-grass.jpg" alt="Procedural Materials - Video Showcase">
     <source src="/assets/materials0_video-seamless.mp4" type="video/mp4" />
 </video>
-Seamless and Procedural Materials - Rotation Video Showcase
-
-<hr>
-
-<img src="/assets/materials3_seamless-grass.jpg" alt="Seamless Material: Artificial Grass | Renders">
-Seamless Material: Artificial Grass | Renders
-
-<img src="/assets/materials4_seamless-grasstextures.jpg" alt="Seamless Material: Artificial Grass | Maps">
-Seamless Material: Artificial Grass | Maps
+Procedural Materials - Rotation Video Showcase
 
 <hr>
 
@@ -69,4 +58,4 @@ Procedural Material: Solar Panels | Graphs
 
 <hr>
 
-<div id="artstation-link"><a class="button" href="https://artstation.com/artwork/baLezd" title="View Materials: Seamless on ArtStation" target="_blank" rel="noopener noreferrer">View Materials: Seamless on ArtStation</a></div>
+<div id="artstation-link"><a class="button" href="https://artstation.com/artwork/baLezd" title="View Materials: Procedural on ArtStation" target="_blank" rel="noopener noreferrer">View Materials: Procedural on ArtStation</a></div>
