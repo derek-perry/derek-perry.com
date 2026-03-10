@@ -70,5 +70,5 @@ Space Scavenger Splash Screen
 
 <hr>
 
-[Download Space Scavenger](https://drive.google.com/file/d/1AetQivwy8EWKr6pcsDL9ISVErnq1X1du)
+[Download Space Scavenger](https://drive.google.com/file/d/1Nxo9WzhvVLo7UtoIe2GIENneNtd6OYrZ)
 <br/>(File is a zip(170MB) with the .exe for Windows 64bit)
